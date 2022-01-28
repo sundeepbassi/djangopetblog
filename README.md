@@ -1,6 +1,19 @@
+This blog was created for a user who has an interest in animal welfare and people who love their pets.
+
+The users name is Stacey for confidentiality purposes the name has been adopted as the user wanted to stay anonymous.  
+
+The background of the user is a single mother staying at home taking care of her children and animals that she has rescued.  The user has always had an interest in taking care of animals and rescuing animals that have been injured.  The user usually uses social media to keep in touch with people that share an interest in animal welfare.
+
+One of the reasons the usere wanted a blog was to create a forum to keep in touch with fellow animal lovers and to also raise awareness about animal welfare. As the user stated "a social media platform for animal lovers and the joy we share in looking after them, our furry companions"
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+Welcome sundeepbassi,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
