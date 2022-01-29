@@ -6,6 +6,59 @@ The background of the user is a single mother staying at home taking care of her
 
 One of the reasons the usere wanted a blog was to create a forum to keep in touch with fellow animal lovers and to also raise awareness about animal welfare. As the user stated "a social media platform for animal lovers and the joy we share in looking after them, our furry companions"
 
+## Credits
+
+On the 28th of January tried to do a number of git commits for what I had done for the project.  I noticed the 29th of January that these commits did not show on my github and I did do a git push also.  Student tutors advised me to ensure that all git commits are done once code has been installed and saved in the files.
+The following steps were put into the git commits on the 28th of January. 
+
+1. Install Django and gunicorn
+
+2. Install supporting libraries.
+
+3. Install cloudinary libraries.
+
+4. Create requirements fileit 
+
+5. Create project (petstar)
+
+6. Create app (blog)
+
+7. Add to installed apps.
+
+8. Migrate to changes
+
+9. Run server to test.
+
+10. Create new Heroku app.
+
+11. Add Database to app resources.
+
+12. Copy database url.
+
+13. Create new env file
+
+14. import os library
+
+15. Set environment variables
+
+16. Add key.
+
+17. Add key to config vars.
+
+18. Reference env.
+
+19. Remove insecure key.
+
+20. Comment out old databases section.
+
+21. Add new databases section.
+
+22. Make migrations.
+
+
+
+
+
 
 
 
