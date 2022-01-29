@@ -9,7 +9,7 @@ One of the reasons the usere wanted a blog was to create a forum to keep in touc
 ## Credits
 
 On the 28th of January tried to do a number of git commits for what I had done for the project.  I noticed the 29th of January that these commits did not show on my github and I did do a git push also.  Student tutors advised me to ensure that all git commits are done once code has been installed and saved in the files.
-The following steps were put into the git commits on the 28th of January. 
+The following steps were put into the git commits on the 28th of January. The steps for these installations were shown in the Code Institute Walkthrough project I think therefore I blog.
 
 1. Install Django and gunicorn
 
