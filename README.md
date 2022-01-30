@@ -52,50 +52,6 @@ One of the reasons the usere wanted a blog was to create a forum to keep in touc
 On the 28th of January tried to do a number of git commits for what I had done for the project.  I noticed the 29th of January that these commits did not show on my github and I did do a git push also.  Student tutors advised me to ensure that all git commits are done once code has been installed and saved in the files.
 The following steps were put into the git commits on the 28th of January. The steps for these installations were shown in the Code Institute Walkthrough project I think therefore I blog.
 
-1. Install Django and gunicorn
-
-2. Install supporting libraries.
-
-3. Install cloudinary libraries.
-
-4. Create requirements fileit 
-
-5. Create project (petstar)
-
-6. Create app (blog)
-
-7. Add to installed apps.
-
-8. Migrate to changes
-
-9. Run server to test.
-
-10. Create new Heroku app.
-
-11. Add Database to app resources.
-
-12. Copy database url.
-
-13. Create new env file
-
-14. import os library
-
-15. Set environment variables
-
-16. Add key.
-
-17. Add key to config vars.
-
-18. Reference env.
-
-19. Remove insecure key.
-
-20. Comment out old databases section.
-
-21. Add new databases section.
-
-22. Make migrations.
-
 The layout for the Readme is from Alexander Grib 
 
 (Alexander Grib)[https://github.com/alexandergrib/ms4-store]
@@ -106,6 +62,8 @@ The layout for the Readme is from Alexander Grib
 ### Acknowledgments
 
 ### Disclaimer
+
+This project has solely been develpoed for the purposes of education, research and learning. In accordance with the copyright design and patents act 1988 the work in this project is fair dealing for research and private study and for non-commercial purposes. Any material or work from ouside sources has been acknowledged in the credits section of the readme.
 
 
 
@@ -122,49 +80,7 @@ The layout for the Readme is from Alexander Grib
 On the 28th of January tried to do a number of git commits for what I had done for the project.  I noticed the 29th of January that these commits did not show on my github and I did do a git push also.  Student tutors advised me to ensure that all git commits are done once code has been installed and saved in the files.
 The following steps were put into the git commits on the 28th of January. The steps for these installations were shown in the Code Institute Walkthrough project I think therefore I blog.
 
-1. Install Django and gunicorn
 
-2. Install supporting libraries.
-
-3. Install cloudinary libraries.
-
-4. Create requirements fileit 
-
-5. Create project (petstar)
-
-6. Create app (blog)
-
-7. Add to installed apps.
-
-8. Migrate to changes
-
-9. Run server to test.
-
-10. Create new Heroku app.
-
-11. Add Database to app resources.
-
-12. Copy database url.
-
-13. Create new env file
-
-14. import os library
-
-15. Set environment variables
-
-16. Add key.
-
-17. Add key to config vars.
-
-18. Reference env.
-
-19. Remove insecure key.
-
-20. Comment out old databases section.
-
-21. Add new databases section.
-
-22. Make migrations.
 
 
 
