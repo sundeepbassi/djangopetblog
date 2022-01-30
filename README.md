@@ -1,10 +1,121 @@
-This blog was created for a user who has an interest in animal welfare and people who love their pets.
+# About Petblog
+
+This blog was created for a user who has an interest in animal welfare and people who loves their pets.
 
 The users name is Stacey for confidentiality purposes the name has been adopted as the user wanted to stay anonymous.  
 
 The background of the user is a single mother staying at home taking care of her children and animals that she has rescued.  The user has always had an interest in taking care of animals and rescuing animals that have been injured.  The user usually uses social media to keep in touch with people that share an interest in animal welfare.
 
+### Initial Discussion
 One of the reasons the usere wanted a blog was to create a forum to keep in touch with fellow animal lovers and to also raise awareness about animal welfare. As the user stated "a social media platform for animal lovers and the joy we share in looking after them, our furry companions"
+
+### Site Owner's Goals
+
+### First Time Visitor Goals
+
+### Returning Visitor Goals
+
+### Frequent User Goals
+
+### UI 
+
+### Wireframes
+
+### Database Schema
+
+### Database Model
+
+## Technologies Used
+
+### Languages Used
+
+### Frameworks, Libraries and Programs Used
+
+### Testing
+
+### Testing User Stories from User Experience (UX) Section
+
+### First Time Visitor Goals
+
+### Returning User Goals
+
+### Frequent User Goals
+
+### Further Testing
+
+### Known Bugs
+
+### Known Issues
+
+### Credits
+
+On the 28th of January tried to do a number of git commits for what I had done for the project.  I noticed the 29th of January that these commits did not show on my github and I did do a git push also.  Student tutors advised me to ensure that all git commits are done once code has been installed and saved in the files.
+The following steps were put into the git commits on the 28th of January. The steps for these installations were shown in the Code Institute Walkthrough project I think therefore I blog.
+
+1. Install Django and gunicorn
+
+2. Install supporting libraries.
+
+3. Install cloudinary libraries.
+
+4. Create requirements fileit 
+
+5. Create project (petstar)
+
+6. Create app (blog)
+
+7. Add to installed apps.
+
+8. Migrate to changes
+
+9. Run server to test.
+
+10. Create new Heroku app.
+
+11. Add Database to app resources.
+
+12. Copy database url.
+
+13. Create new env file
+
+14. import os library
+
+15. Set environment variables
+
+16. Add key.
+
+17. Add key to config vars.
+
+18. Reference env.
+
+19. Remove insecure key.
+
+20. Comment out old databases section.
+
+21. Add new databases section.
+
+22. Make migrations.
+
+The layout for the Readme is from Alexander Grib 
+
+(Alexander Grib)[https://github.com/alexandergrib/ms4-store]
+
+
+### Media
+
+### Acknowledgments
+
+### Disclaimer
+
+
+
+
+
+
+
+
+
+
 
 ## Credits
 
