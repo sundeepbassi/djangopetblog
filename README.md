@@ -46,6 +46,9 @@ One of the reasons the usere wanted a blog was to create a forum to keep in touc
 ### Known Bugs
 
 ### Known Issues
+On the 31st of January I had to contact tutor support again and explain that I could not locate the env.py file that I had created twice on my filing system.  I sent tutor support screen shots of my filess.
+
+Tutor Support informed me that it was best to open up my workspace by gitpod.io/workspaces into your url bar. 
 
 ### Credits
 
@@ -63,8 +66,13 @@ The layout for the Readme is from Alexander Grib
 
 ### Disclaimer
 
-This project has solely been develpoed for the purposes of education, research and learning. In accordance with the copyright design and patents act 1988 the work in this project is fair dealing for research and private study and for non-commercial purposes. Any material or work from ouside sources has been acknowledged in the credits section of the readme.
+This project has solely been developed for the purposes of education, research and learning. In accordance with the copyright design and patents act 1988 the work in this project is fair dealing for research and private study and for non-commercial purposes. Any material or work from ouside sources has been acknowledged in the credits section of the readme.
 
+[Copyright Design and Patent Act 1988 
+[https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/957583/Copyright-designs-and-patents-act-1988.pdf]
+
+(Uk Government guidance on copyright)
+[https://www.gov.uk/guidance/exceptions-to-copyright]
 
 
 
