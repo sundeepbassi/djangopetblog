@@ -50,6 +50,11 @@ On the 31st of January I had to contact tutor support again and explain that I c
 
 Tutor Support informed me that it was best to open up my workspace by gitpod.io/workspaces into your url bar. 
 
+### Deployment 
+The project was deployed early on the 1st of February 2022 as recommended by the Code Institute walkthrough I think therefore I blog.
+
+Steps to Deployment
+
 ### Credits
 
 On the 28th of January tried to do a number of git commits for what I had done for the project.  I noticed the 29th of January that these commits did not show on my github and I did do a git push also.  Student tutors advised me to ensure that all git commits are done once code has been installed and saved in the files.
