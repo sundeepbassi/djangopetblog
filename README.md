@@ -52,6 +52,9 @@ Tutor Support informed me that it was best to open up my workspace by gitpod.io/
 
 During the deployment process on the 1st of February 2022 there was an error message when opening the app.  Tutor support informed it was best to git commit and push prior to deployment and this resolved the issue and the site was successfully deployed.
 
+On the 1st of February 2022 there were issues with performing the python3 manage.py makemigrations for the data models that were created for the post and comments. The tutors informed me that the issue was to do with Heroku updating its config vars and that I would need to recopy the DATABASE_URL code and put it in the env file.  This resolved the issues and the makemigrations and the migrate commands worked.
+
+
 ### Deployment 
 The project was deployed early on the 1st of February 2022 as recommended by the Code Institute walkthrough I think therefore I blog. 
 
