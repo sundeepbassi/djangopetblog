@@ -50,8 +50,10 @@ On the 31st of January I had to contact tutor support again and explain that I c
 
 Tutor Support informed me that it was best to open up my workspace by gitpod.io/workspaces into your url bar. 
 
+During the deployment process on the 1st of February 2022 there was an error message when opening the app.  Tutor support informed it was best to git commit and push prior to deployment and this resolved the issue and the site was successfully deployed.
+
 ### Deployment 
-The project was deployed early on the 1st of February 2022 as recommended by the Code Institute walkthrough I think therefore I blog.
+The project was deployed early on the 1st of February 2022 as recommended by the Code Institute walkthrough I think therefore I blog. 
 
 Steps to Deployment
 
@@ -64,6 +66,7 @@ The layout for the Readme is from Alexander Grib
 
 (Alexander Grib)[https://github.com/alexandergrib/ms4-store]
 
+The deployment for the project is accredited to the code institute walkthrough project I think therefore I blog.
 
 ### Media
 
