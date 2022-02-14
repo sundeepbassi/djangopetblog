@@ -31,6 +31,16 @@ One of the reasons the usere wanted a blog was to create a forum to keep in touc
 
 ### Frameworks, Libraries and Programs Used
 
+- [Git]
+
+- [Github]
+
+- Django
+
+- Heroku
+
+- Cloudinary 
+
 ### Testing
 
 ### Testing User Stories from User Experience (UX) Section
@@ -70,11 +80,28 @@ The following steps were put into the git commits on the 28th of January. The st
 
 The layout for the Readme is from Alexander Grib 
 
-(Alexander Grib)[https://github.com/alexandergrib/ms4-store]
+[Alexander Grib](https://github.com/alexandergrib/ms4-store)
 
 The deployment for the project is accredited to the code institute walkthrough project I think therefore I blog.
 
+
 ### Media
+
+The following sites and links below were used for research purposes into developing a pet blog website.
+
+[6 Of The Best Pet Blog Sites](https://www.thepetexpress.co.uk/blog/general-interest/6-of-the-best-pet-blogs/)
+
+[Pressplay Pets](https://pressplaypets.com/rainbow-bridge-2/)
+
+[The Conscious Cat](https://consciouscat.net/)
+
+[The Blog For The Pet Express](https://www.thepetexpress.co.uk/blog/)
+
+[Blogpaws](https://blogpaws.com/)
+
+[Oh My Dog Blog](https://ohmydogblog.com/)
+
+[]()
 
 ### Acknowledgments
 
@@ -82,11 +109,9 @@ The deployment for the project is accredited to the code institute walkthrough p
 
 This project has solely been developed for the purposes of education, research and learning. In accordance with the copyright design and patents act 1988 the work in this project is fair dealing for research and private study and for non-commercial purposes. Any material or work from ouside sources has been acknowledged in the credits section of the readme.
 
-[Copyright Design and Patent Act 1988 
-[https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/957583/Copyright-designs-and-patents-act-1988.pdf]
+[Copyright Design and Patent Act 1988](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/957583/Copyright-designs-and-patents-act-1988.pdf)
 
-(Uk Government guidance on copyright)
-[https://www.gov.uk/guidance/exceptions-to-copyright]
+[Uk Government guidance on copyright](https://www.gov.uk/guidance/exceptions-to-copyright)
 
 
 
