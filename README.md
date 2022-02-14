@@ -56,7 +56,7 @@ On the 1st of February 2022 there were issues with performing the python3 manage
 
 On the 2nd of February I noticed that my env.py had disappeared again and I had been working on it the night before to update the config vars links as suggested by the tutors because they informed me that Heroku sometimes update their servers and the links can change.  I contacted the tutors again and informed them that the env.py had disappeared again and I had followed the correct procedures to open the work as suggested by the tutors previously.  I also informed them that I could not log into Heroku.  The tutors told me that the Heroku site was not accessible as engineers were working on it. The tutors helped me to set up a environment variable and told me to use the https://gitpod.io/workspaces to ooen and stop projects.
 
-
+cloudinary://571451748687539:2KTq0GgqN_vNbGGDB_nWNoN8Lws@sunnyalways
 
 ### Deployment 
 The project was deployed early on the 1st of February 2022 as recommended by the Code Institute walkthrough I think therefore I blog. 
