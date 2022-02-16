@@ -68,6 +68,9 @@ On the 2nd of February I noticed that my env.py had disappeared again and I had 
 
 cloudinary://571451748687539:2KTq0GgqN_vNbGGDB_nWNoN8Lws@sunnyalways
 
+On the 14th of February I had to contact tutor support as I could not make a git commit and I also tried to do it through source control.  I had to do some git commits from the week before.  I had to resubmit my project 3 which took a week to do.  Tutor support said that I would need to do a git pull but the issue was a conflict in the requirements file.  Once this was resolved the tutor support gave me commands to restore my workspace to be able to do git commits.
+
+
 ### Deployment 
 The project was deployed early on the 1st of February 2022 as recommended by the Code Institute walkthrough I think therefore I blog. 
 
