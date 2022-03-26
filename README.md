@@ -118,7 +118,9 @@ Creation of a new blank Django project and app was shown in the walkthough video
 
  The deployment of the project to Heroku was shown in the walkthough video I think therefore I blog.
 
- was shown in the walkthough video I think therefore I blog.
+ The code added to the  procfile, models, settings and env files was shown in the walkthough video I think therefore I blog.
+
+ 
 
 
 
