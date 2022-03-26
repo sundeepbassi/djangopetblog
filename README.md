@@ -76,6 +76,14 @@ The project was deployed early on the 1st of February 2022 as recommended by the
 
 Steps to Deployment
 
+- Create the Heroku app.
+
+- Attach the postgreSQL database
+
+- Prepare the environment and settings.py files.
+
+- Get our static and media files stored on cloudinary. 
+
 ### Credits
 
 On the 28th of January tried to do a number of git commits for what I had done for the project.  I noticed the 29th of January that these commits did not show on my github and I did do a git push also.  Student tutors advised me to ensure that all git commits are done once code has been installed and saved in the files.
@@ -86,6 +94,33 @@ The layout for the Readme is from Alexander Grib
 [Alexander Grib](https://github.com/alexandergrib/ms4-store)
 
 The deployment for the project is accredited to the code institute walkthrough project I think therefore I blog.
+
+Design Thinking and Agile 
+
+- Empathise Put ourselves in the user's position. Anticipate the user's wants and needs.
+
+- Question Why would a user want to visit our blog? W
+           What would make them return?
+
+- Thinking What do I want to see when I visit a blog?
+  What would make me return?
+
+  Design thinking is accredited to the course and walkthrough I think there I blog from the code institute.
+The creation of the kanban was in the github repository was shown on the I think therefore I blog walkthrough from the Code Institute.
+
+The implementation of the user stories into the kanban and the Agile approach were shown from the course create user story template on github content of the Agile section from the code institute.
+
+Installing Django and the supporting libraries was shown in the walkthough video I think therefore I blog. 
+
+Creation of a new blank Django project and app was shown in the walkthough video I think therefore I blog. 
+
+ To set our project to use Cloudinary and PostgreSQL was shown in the walkthough video I think therefore I blog.
+
+ The deployment of the project to Heroku was shown in the walkthough video I think therefore I blog.
+
+ was shown in the walkthough video I think therefore I blog.
+
+
 
 
 ### Media
