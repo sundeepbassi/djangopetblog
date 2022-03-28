@@ -145,7 +145,7 @@ The code added to the urls file in the petstar folder was shown in the walkthrou
 
 The moving of the site pagination, view likes and view post list to the done section of the kanban board for agile development was shown in the walkthrough video I think therefore I blog.
 
-was shown in the walkthrough video I think therefore I blog.
+The moving of the open a post and view comments to the progress section of the kanban board was shown in the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
 
