@@ -149,7 +149,7 @@ The moving of the open a post and view comments to the progress section of the k
 
 The code for the post detail view added to the view file was shown in the walkthrough video I think therefore I blog.
 
-was shown in the walkthrough video I think therefore I blog.
+The code content added to the post_detail file was shown in the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
 
