@@ -163,7 +163,7 @@ The code added to the settings file for the installed apps was shown in the walk
 
 The code added to the urls file in the petstar folder was shown in the walkthrough video I think therefore I blog.
 
-was shown in the walkthrough video I think therefore I blog.
+The code added to the settings file for the installed apps for allauth was shown in the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
 
