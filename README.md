@@ -147,8 +147,11 @@ The moving of the site pagination, view likes and view post list to the done sec
 
 The moving of the open a post and view comments to the progress section of the kanban board was shown in the walkthrough video I think therefore I blog.
 
+The code for the post detail view added to the view file was shown in the walkthrough video I think therefore I blog.
+
 was shown in the walkthrough video I think therefore I blog.
 
+was shown in the walkthrough video I think therefore I blog.
 
 
 
