@@ -139,7 +139,7 @@ The setting up of the style/css file with the code and placed in the static file
 
 The code content for adding to the index file was shown in the walkthrough video I think therefore I blog.
 
-was shown in the walkthrough video I think therefore I blog.
+The setting up of the urls file and adding the code was shown in the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
 
@@ -147,7 +147,9 @@ was shown in the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
 
-The setting up of the was shown in the walkthrough video I think therefore I blog.
+was shown in the walkthrough video I think therefore I blog.
+
+
 
 
 
