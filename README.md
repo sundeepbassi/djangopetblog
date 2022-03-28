@@ -155,6 +155,18 @@ The code added to the urls file in the blog folder was shown in the walkthrough 
 
 The code added to index file was shown in the walkthrough video I think therefore I blog.
 
+The open a post and view comments user stories were moved to the done section of the kanban board was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
 was shown in the walkthrough video I think therefore I blog.
 
 
