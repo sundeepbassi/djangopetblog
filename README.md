@@ -157,7 +157,7 @@ The code added to index file was shown in the walkthrough video I think therefor
 
 The open a post and view comments user stories were moved to the done section of the kanban board was shown in the walkthrough video I think therefore I blog.
 
-was shown in the walkthrough video I think therefore I blog.
+The account registration user story moved to in progress section of the kanban board was shown in the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
 
