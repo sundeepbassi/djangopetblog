@@ -131,7 +131,7 @@ Creation of a new blank Django project and app was shown in the walkthough video
 
  The addition of summernote library was shown in the walkthrough video I think therefore I blog.
 
- was shown in the walkthrough video I think therefore I blog.
+ The code added for the view files was shown in the walkthrough video I think therefore I blog.
 
  was shown in the walkthrough video I think therefore I blog.
 
