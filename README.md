@@ -151,7 +151,12 @@ The code for the post detail view added to the view file was shown in the walkth
 
 The code content added to the post_detail file was shown in the walkthrough video I think therefore I blog.
 
+The code added to the urls file in the blog folder was shown in the walkthrough video I think therefore I blog.
+
+The code added to index file was shown in the walkthrough video I think therefore I blog.
+
 was shown in the walkthrough video I think therefore I blog.
+
 
 
 
