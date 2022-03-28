@@ -141,7 +141,7 @@ The code content for adding to the index file was shown in the walkthrough video
 
 The setting up of the urls file and adding the code was shown in the walkthrough video I think therefore I blog.
 
-was shown in the walkthrough video I think therefore I blog.
+The code added to the urls file in the petstar folder was shown in the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
 
