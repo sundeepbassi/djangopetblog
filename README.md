@@ -128,14 +128,26 @@ Creation of a new blank Django project and app was shown in the walkthough video
 
  Adding code to the admin, settings and  urls file was shown in the walkthrough video I think therefore I blog.
 
-
  The addition of summernote library was shown in the walkthrough video I think therefore I blog.
 
  The code added for the view files was shown in the walkthrough video I think therefore I blog.
 
- was shown in the walkthrough video I think therefore I blog.
+ The setting up of the base, index and post_detail files with the code and placed into the templates folder  was shown in the walkthrough video I think therefore I blog.
 
 
+The setting up of the style/css file with the code and placed in the static file was shown in the walkthrough video I think therefore I blog.
+
+The code content for adding to the index file was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
+The setting up of the was shown in the walkthrough video I think therefore I blog.
 
 
 
