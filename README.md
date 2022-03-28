@@ -139,11 +139,11 @@ The setting up of the style/css file with the code and placed in the static file
 
 The code content for adding to the index file was shown in the walkthrough video I think therefore I blog.
 
-The setting up of the urls file and adding the code was shown in the walkthrough video I think therefore I blog.
+The setting up of the urls file into the blog folder and adding the code was shown in the walkthrough video I think therefore I blog.
 
 The code added to the urls file in the petstar folder was shown in the walkthrough video I think therefore I blog.
 
-was shown in the walkthrough video I think therefore I blog.
+The moving of the site pagination, view likes and view post list to the done section of the kanban board for agile development was shown in the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
 
