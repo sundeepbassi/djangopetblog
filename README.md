@@ -173,9 +173,9 @@ To add and modify the code in the login.html template was shown in the walkthrou
 
 The code added to and modified to the logout and signup templates was shown in the walkthrough video I think therefore I blog.
 
-was shown in the walkthrough video I think therefore I blog.
+To create the forms file and to add code to it and to the settings file was shown in the walkthrough video I think therefore I blog.
 
-was shown in the walkthrough video I think therefore I blog.
+To install the django-crispy-forms was shown in the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
 
