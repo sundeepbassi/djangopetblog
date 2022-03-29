@@ -179,7 +179,16 @@ To install the django-crispy-forms was shown in the walkthrough video I think th
 
 To add code to the views file was was shown in the walkthrough video I think therefore I blog.
 
+To add code to the post detail template was shown in the walkthrough video I think therefore I blog.
+
 was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
 
 
 
