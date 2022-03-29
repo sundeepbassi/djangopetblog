@@ -177,7 +177,7 @@ To create the forms file and to add code to it and to the settings file was show
 
 To install the django-crispy-forms was shown in the walkthrough video I think therefore I blog.
 
-was shown in the walkthrough video I think therefore I blog.
+To add code to the views file was was shown in the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
 
