@@ -171,7 +171,16 @@ To create  multiple directories in our templates folder was shown in the walkthr
 
 To add and modify the code in the login.html template was shown in the walkthrough video I think therefore I blog.
 
+The code added to and modified to the logout and signup templates was shown in the walkthrough video I think therefore I blog.
+
 was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
+was shown in the walkthrough video I think therefore I blog.
+
 
 
 
