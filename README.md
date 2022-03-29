@@ -169,7 +169,7 @@ The code added to the base html for account logout, signup and login was shown i
 
 To create  multiple directories in our templates folder was shown in the walkthrough video I think therefore I blog.
 
-was shown in the walkthrough video I think therefore I blog.
+To add and modify the code in the login.html template was shown in the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
 
