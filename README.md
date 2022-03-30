@@ -181,7 +181,7 @@ To add code to the views file was was shown in the walkthrough video I think the
 
 To add code to the post detail template was shown in the walkthrough video I think therefore I blog.
 
-was shown in the walkthrough video I think therefore I blog.
+To add code to the views file to show likes was shown in the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
 
