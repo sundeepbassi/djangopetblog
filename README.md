@@ -76,6 +76,8 @@ The project was deployed early on the 1st of February 2022 as recommended by the
 
 Steps to Deployment
 
+- Navigate to the Heroku website
+
 - Create the Heroku app.
 
 - Attach the postgreSQL database
@@ -83,6 +85,8 @@ Steps to Deployment
 - Prepare the environment and settings.py files.
 
 - Get our static and media files stored on cloudinary. 
+
+The final deployment steps
 
 ### Credits
 
@@ -183,7 +187,7 @@ To add code to the post detail template was shown in the walkthrough video I thi
 
 To add code to the views file to show likes was shown in the walkthrough video I think therefore I blog.
 
-was shown in the walkthrough video I think therefore I blog.
+To add code to the settings and base html files for the messages was shown in the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
 
