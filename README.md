@@ -189,6 +189,12 @@ To add code to the views file to show likes was shown in the walkthrough video I
 
 To add code to the settings and base html files for the messages was shown in the walkthrough video I think therefore I blog.
 
+On the 2nd of April I had a my first meeting with my mentor and he advised me ensure I get an update and delete function for my comments section of the blog,
+
+I contacted tutor aupport and they sent me a youtube video from codemy and a resource link to Djasngo 
+
+I contacted an IT and software development specialist and tutor Mike Youell for support in tutoring me in how to incorpoarate the update and delete fumtionality into the comments section.  Mike guided me through the process with the aid of a youtube video by Codemy [Codemy update & edit a blog](https://www.youtube.com/watch?v=J7xaESAddDQ). With Mikes generous support we were able to set up the update_detail,html file and input the code for that file to display the update function. This was following the Codemy video code.  Mike also explained to me in better detail what the blog urls file was doing when we inputed the code from the Codemy file.  Mike also explained to me what a slug and an int/pk were and the difference in how they are displayed in the url browser.  We then inputted the code into the views fie for the class for updating the comments.  Mike also supported me to look at the code needed for the post_detail file within the comments section. 
+
 was shown in the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
