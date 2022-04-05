@@ -1,4 +1,5 @@
-# About Petblog
+# Introduction
+## About Petblog
 
 This blog was created for a user who has an interest in animal welfare and people who loves their pets.
 
@@ -10,13 +11,45 @@ The background of the user is a single mother staying at home taking care of her
 One of the reasons the usere wanted a blog was to create a forum to keep in touch with fellow animal lovers and to also raise awareness about animal welfare. As the user stated "a social media platform for animal lovers and the joy we share in looking after them, our furry companions"
 
 
-### UI 
+### UX
+#### Potential Users
+
+### User Stories
+
+#### Users
+
+#### Managing Site Admin
+
+### Development Planes
+
+#### Roles
+
+#### Potential Users
+
+#### 
+
+
+### Scope
+
+### Structure Check task in figma
+
+## Skeleton
 
 ### Wireframes
 
 ### Database Schema
 
 ### Database Model
+
+### Design
+
+### Features
+
+List relevant pages
+
+HOME 
+
+### Future Features
 
 ## Technologies Used
 
