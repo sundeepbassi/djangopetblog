@@ -1,9 +1,10 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
-from .models import Post, Comment
-from .forms import CommentForm
+from django.urls import reverse_lazy
 from django.views.generic.edit import UpdateView, DeleteView
+from .forms import CommentForm
+from .models import Post, Comment
 
 
 class PostList(generic.ListView):
@@ -35,6 +36,7 @@ class PostDetail(View):
             },
         )
     
+
     def post(self, request, slug, *args, **kwargs):
 
         queryset = Post.objects.filter(status=1)
@@ -83,3 +85,18 @@ class UpdateCommentView(UpdateView):
     model = Comment
     template_name = 'update_comment.html'
     fields = ['name', 'body']
+    
+    def get_success_url(self):
+        next_url = self.request.GET['nexturl']
+        return next_url
+    #success_url = reverse_lazy('home')
+
+
+class DeleteCommentView(DeleteView):
+    model = Comment
+    template_name = 'delete_comment.html'
+    
+    def get_success_url(self):
+        next_url = self.request.GET['nexturl']
+        return next_url
+    #success_url = reverse_lazy(self.GET.next_url)

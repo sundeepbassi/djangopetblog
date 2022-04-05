@@ -11,25 +11,71 @@ The background of the user is a single mother staying at home taking care of her
 One of the reasons the usere wanted a blog was to create a forum to keep in touch with fellow animal lovers and to also raise awareness about animal welfare. As the user stated "a social media platform for animal lovers and the joy we share in looking after them, our furry companions"
 
 
-### UX
-#### Potential Users
+
 
 ### User Stories
 
+
+## Strategy
+
 #### Users
 
-#### Managing Site Admin
-
-### Development Planes
+### UX
 
 #### Roles
 
+- User
+
+- Potential User
+
+- Managing Site Admin
+
+#### Interestd Users
+
+- Users who have pets and are passionate about animal welfare.
+
+- There is no age range as both adults and children can care for pets.
+
 #### Potential Users
 
-#### 
+- Then there are those users that are interested in getting a pet and want to learn more about animal welfare.
 
+- During the covid-19 panademic we saw an interest in the number of people wanting to get a pet. Especially as people began to work from home or were furloughed.
 
-### Scope
+- There are also users that for some reason unable to keep a pet (such as the elderly or residential restrictions) and the blog would help them keep in touch by making comments about blog posts.
+
+#### Managing Site Admin
+This will be the person who can manage the administration of the site.
+
+### Development Planes
+
+The blog will allow the user to{
+
+  - To see and read posts about pets and animal welfare.
+
+  - To have the opportunity to register and sign up as a user.
+
+  - To be able to leave comments on posts.
+
+  - To be able to update comments that they have left about posts.
+
+  - To be able to delete comments that they have made about posts.
+
+  - If the user gets to the delete stage and wants to cancel deleteing the post they have that option   
+    also with the cancel button.
+
+  - The User can also logout.
+
+The blog will allow the admin to:
+
+- Create, read, update and delete posts in the admin section.
+
+- Approve comments made by registered users.
+
+### Scope 
+
+NEED TO LOOK UP SCOPE 
+
 
 ### Structure Check task in figma
 
@@ -43,7 +89,38 @@ One of the reasons the usere wanted a blog was to create a forum to keep in touc
 
 ### Design
 
+#### Colour 
+
+#### typography
+
+#### Images
+
 ### Features
+
+#### Navigation
+
+I decided to keep the main navigation to the left hand side of the user to view as this is where most viewers and users are known to view  awebsite first.  get evidence from ???
+
+#### Header 
+
+
+#### Footer
+
+#### Home
+
+#### Register
+
+#### Login
+
+#### Update A Comment
+
+#### Delete A Comment
+
+#### Logout
+
+
+
+
 
 List relevant pages
 
@@ -54,6 +131,10 @@ HOME
 ## Technologies Used
 
 ### Languages Used
+HTML
+CSS3
+PYTHON
+JAVASCRIPT
 
 ### Frameworks, Libraries and Programs Used
 
@@ -62,6 +143,8 @@ HOME
 - [Github]
 
 - Django
+
+- Superuser
 
 - Heroku
 
@@ -147,6 +230,10 @@ The following steps were put into the git commits on the 28th of January. The st
 The layout for the Readme is from Alexander Grib 
 
 [Alexander Grib](https://github.com/alexandergrib/ms4-store)
+
+and
+
+[Irish Becky's readme](https://github.com/Irishbecky91/student_rations)
 
 The deployment for the project is accredited to the code institute walkthrough project I think therefore I blog.
 
@@ -245,6 +332,7 @@ On the 2nd of April I had a my first meeting with my mentor and he advised me en
 I contacted tutor aupport and they sent me a youtube video from codemy and a resource link to Djasngo 
 
 I contacted an IT and software development specialist and tutor Mike Youell for support in tutoring me in how to incorpoarate the update and delete fumtionality into the comments section.  Mike guided me through the process with the aid of a youtube video by Codemy [Codemy update & edit a blog](https://www.youtube.com/watch?v=J7xaESAddDQ). With Mikes generous support we were able to set up the update_detail,html file and input the code for that file to display the update function. This was following the Codemy video code.  Mike also explained to me in better detail what the blog urls file was doing when we inputed the code from the Codemy file.  Mike also explained to me what a slug and an int/pk were and the difference in how they are displayed in the url browser.  We then inputted the code into the views fie for the class for updating the comments.  Mike also supported me to look at the code needed for the post_detail file within the comments section. 
+
 
 
 
