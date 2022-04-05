@@ -9,13 +9,6 @@ The background of the user is a single mother staying at home taking care of her
 ### Initial Discussion
 One of the reasons the usere wanted a blog was to create a forum to keep in touch with fellow animal lovers and to also raise awareness about animal welfare. As the user stated "a social media platform for animal lovers and the joy we share in looking after them, our furry companions"
 
-### Site Owner's Goals
-
-### First Time Visitor Goals
-
-### Returning Visitor Goals
-
-### Frequent User Goals
 
 ### UI 
 
@@ -44,12 +37,6 @@ One of the reasons the usere wanted a blog was to create a forum to keep in touc
 ### Testing
 
 ### Testing User Stories from User Experience (UX) Section
-
-### First Time Visitor Goals
-
-### Returning User Goals
-
-### Frequent User Goals
 
 ### Further Testing
 
@@ -111,6 +98,8 @@ Steps to Deployment
 - TEMPLATES_DIR
 - The DIRS was updated in TEMPLATES WITH TEMPLATES_DIR
 - The ALLOWED_HOSTS were updated with ['app_name.heroku.com','localhost']
+
+When I did do the early deployment as advised in the Code Institute wakthrough I think therefoe I blog, the deployment worked good.  Then one day there were problems getting the site to work I had to contact tutor support and they said that because Heroku had been doing maintainance work on their site that Config Vars DATABSE_URL would have been changed and therefore it would be best to recopy this and add it to my env.py file again. I did this and the site worked.
 
 STILL NEED TO ADD MORE INFORMATION
 - Get our static and media files stored on cloudinary. 
