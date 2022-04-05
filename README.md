@@ -78,12 +78,41 @@ Steps to Deployment
 
 - Navigate to the Heroku website
 
-- Create the Heroku app.
+- I already had an account with Heroku
 
-- Attach the postgreSQL database
+- I Created Petstar app on the Heroku app and selected the location.
 
-- Prepare the environment and settings.py files.
+- I went to the  resources tab and under add ons typed in Postgres and selected the Postgres Heroku option. Attach the postgreSQL database
 
+- Prepare the  settings.py files and the environment
+- I had to click settings tab and clicked on the Reveal Config Vars and from the DATABASE_URL I copied the url next to it.
+- Then I had to create a env.py file in the main directory in my Gitpod workspace.
+
+- I added the code to set up the DATABASE_URL in the env.py file. Then I added the value from Heroku next to the Database_URL.
+
+- I set up the SECRET_KEY in the env.py file and also added the value to it.
+
+- Then I went Heroku and in the Config Vars I added the SECRET_KEY value.
+
+- Then I had to update the settings.py file by importing the env.py file and to add the DATABASE_URL and SECRET_KEY file paths.
+
+- Then I had to create an account with Cloudinary.
+
+- From Cloudinary I copied the url and pasted it into the Heroku Config Vars and this was also pasted into the setting.py file. 
+
+- I then went to the settings.py file and added the following sections.
+
+- In the INSTALLED_APPS list I added cloudinary.
+- STATICFILE_STORAGE
+- STATICFILES_DIRS
+- STATIC_ROOT
+- MEDIA_URL
+- DEFAULT_FILES_STORAGE
+- TEMPLATES_DIR
+- The DIRS was updated in TEMPLATES WITH TEMPLATES_DIR
+- The ALLOWED_HOSTS were updated with ['app_name.heroku.com','localhost']
+
+STILL NEED TO ADD MORE INFORMATION
 - Get our static and media files stored on cloudinary. 
 
 The final deployment steps
@@ -195,7 +224,9 @@ I contacted tutor aupport and they sent me a youtube video from codemy and a res
 
 I contacted an IT and software development specialist and tutor Mike Youell for support in tutoring me in how to incorpoarate the update and delete fumtionality into the comments section.  Mike guided me through the process with the aid of a youtube video by Codemy [Codemy update & edit a blog](https://www.youtube.com/watch?v=J7xaESAddDQ). With Mikes generous support we were able to set up the update_detail,html file and input the code for that file to display the update function. This was following the Codemy video code.  Mike also explained to me in better detail what the blog urls file was doing when we inputed the code from the Codemy file.  Mike also explained to me what a slug and an int/pk were and the difference in how they are displayed in the url browser.  We then inputted the code into the views fie for the class for updating the comments.  Mike also supported me to look at the code needed for the post_detail file within the comments section. 
 
-was shown in the walkthrough video I think therefore I blog.
+
+
+To deploy the site was shown in the walkthrough video I think therefore I blog. Irish Becky's readme helped me to see how to structure the written material for the readme for the deployment process. [Irish Becky's readme](https://github.com/Irishbecky91/student_rations) I also followed the process from the walkthrough video I think therefore I blog.
 
 was shown in the walkthrough video I think therefore I blog.
 
