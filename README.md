@@ -262,8 +262,6 @@ Irish Becky's readme was very helpful in giving me a good idea about how to stru
 
 [Irish Becky's readme](https://github.com/Irishbecky91/student_rations)
 
-
-
 and
 
 Alexander Grib 
@@ -271,13 +269,9 @@ Alexander Grib
 [Alexander Grib](https://github.com/alexandergrib/ms4-store)
 
 
+- The deployment for the project is accredited to the code institute walkthrough project I think therefore I blog.
 
-Irish Becky's readme was very helpful in giving me a good idea about how to structure the readme and the contents of it.
-[Irish Becky's readme](https://github.com/Irishbecky91/student_rations)
-
-The deployment for the project is accredited to the code institute walkthrough project I think therefore I blog.
-
-Design Thinking and Agile 
+- Design Thinking and Agile 
 
 - Empathise Put ourselves in the user's position. Anticipate the user's wants and needs.
 
@@ -288,7 +282,8 @@ Design Thinking and Agile
   What would make me return?
 
   Design thinking is accredited to the course and walkthrough I think there I blog from the code institute.
-The creation of the kanban was in the github repository was shown on the I think therefore I blog walkthrough from the Code Institute.
+
+- The creation of the kanban was in the github repository was shown on the I think therefore I blog walkthrough from the Code Institute.
 
 The implementation of the user stories into the kanban and the Agile approach were shown from the course create user story template on github content of the Agile section from the code institute.
 
@@ -371,11 +366,16 @@ On the 2nd of April I had a my first meeting with my mentor and he advised me en
 
 I contacted tutor aupport and they sent me a youtube video from codemy and a resource link to Djasngo 
 
-On the 3rd of April 2022, I contacted an IT and software development specialist and tutor Mike Youell for support in tutoring me in how to incorpoarate the update and delete fumtionality into the comments section.  On the 4th of April 2022, Mike guided me through the process with the aid of a youtube video by Codemy [Codemy update & edit a blog](https://www.youtube.com/watch?v=J7xaESAddDQ). With Mikes generous support we were able to set up the update_detail,html file and input the code for that file to display the update function. This was following the Codemy video code.  Mike also explained to me in better detail what the blog urls file was doing when we inputed the code from the Codemy file.  Mike also explained to me what a slug and an int/pk were and the difference in how they are displayed in the url browser.  We then inputted the code into the views fie for the class for updating the comments.  Mike also supported me to look at the code needed for the post_detail file within the comments section. 
+On the 3rd of April 2022, I contacted an IT and software development specialist and tutor Mike Youell for support in tutoring me in how to incorpoarate the update and delete fumtionality into the comments section.  On the 4th of April 2022, Mike guided me through the process with the aid of a youtube video by Codemy [Codemy update & edit a blog](https://www.youtube.com/watch?v=J7xaESAddDQ). With Mikes generous support we were able to set up the update_detail,html file and input the code for that file to display the update function. This was following the Codemy video code.  Mike also explained to me in better detail what the blog urls file was doing when we inputed the code from the Codemy file.  Mike also explained to me what a slug and an int/pk were and the difference in how they are displayed in the url browser.  We then inputted the code into the views fie for the class for updating the comments.  Mike also supported me to look at the code needed for the post_detail file within the comments section.
+We also used [Django documentation](https://docs.djangoproject.com/en/4.0/topics/db/examples/many_to_many/)
 
 On the 5th April 2022, Mike the tutor taught me how to incorporate the CRUD (create, read, update and delete) Process.  We encountered a problem with the comments update process because the edit page was not returning to the comments page and was going to the home page. 
 
  We had to go the post_details html file and we had to in the comments section 
+
+On the 6th of April Mike tutored me to check the warnings in the python files and to use a search engine to input the warnings and to find the best solutions to remove the warnings from the terminal windows. [Stack overflow](https://stackoverflow.com/questions/54102214/django-how-to-set-background-colour-in-html-based-on-context)
+and [Django documentation](https://docs.djangoproject.com/en/4.0/topics/db/examples/many_to_many/) were to very useful resources in helping to eradicate these warnings.
+Mike explained to me whilst tutoring me that it was very good practice to remove warnings and bugs as soon as possible as it stopped any build up of warnings and bugs.  He also explained that if the code had been altered through this process then it was easier to see if there were any problems when the site is being displayed.
 
 To deploy the site was shown in the walkthrough video I think therefore I blog. Irish Becky's readme helped me to see how to structure the written material for the readme for the deployment process. [Irish Becky's readme](https://github.com/Irishbecky91/student_rations) I also followed the process from the walkthrough video I think therefore I blog.
 
