@@ -1,3 +1,6 @@
+
+
+
 # Introduction
 ## About Petblog
 
@@ -124,27 +127,46 @@ NEED TO LOOK UP SCOPE
 
 ### Features
 
+### Design Features
+
+- The Navigation, Header and Footer are on every page in the blog so as to make it easy for the user to have consistency and ease of use when getting around the blog.
+
 #### Navigation
 
 I decided to keep the main navigation to the left hand side of the user to view as this is where most viewers and users are known to view  awebsite first.  get evidence from ???
 
 #### Header 
 
+- The header contains the title Petsstar and it also contains the navigation for the site.  This incorporates the Home Register and Login.  On the far right hand side is a short statement about petlovers.
+I wanted to keep the header simple and easy to use for the user.  Thereby not overwhelming them with two much information.
 
 #### Footer
 
+The footer incorporates the social media icons for the user to link on to. There is also a statement about the blog being created by petlovers so to reinforce the value to the user that the site has been made by petlovers for petlovers and their pets.
+
 #### Home
+
+The home page has the header and footer with the navigation.  This page is where the user first lands to and where the main blog posts are kept.  The user has the option of viewing each blog post page by clicking on the title of that blog post.  There is a date and time message of when the blog post was created underneath the title of a particular blog post.  There is a heart likes button but this can only be accessed when the user has registered and signed up as a user.  There is also an image above every blog post. The author/admistrators name is also placed within the image.
+
+#### Blog Post Page
+
+In the blog post page we have the header and the footer.  On this page the user is able to 
+NEED TO FIX
 
 #### Register
 
+The registration page is for new users that wish to join the site.  There is a header and footer. There is a signup title. There is information about this being a sign up page and that for existing users they can use the login function.  I wanted to keep the registration process simple and easy to use.  The user has to fill in a username category, email which is left optional, a password and a resubmission of that password.
+
 #### Login
+
+The login is for existing users to access the site.  There is a header and footer. There is a sign in title. There is informatin about signing in and a redirect facility for those that have not signed up. The signed up user has to fill in the username and password settings to login in successfully.  Users that are registered have the ability to create comments on a particular post, read a comment about a post, update a post and delete a post.  The admin can approve the comments from signed up users.
 
 #### Update A Comment
 
 #### Delete A Comment
 
 #### Logout
-
+Signed up users can logout after signing into the blog. This will redirect the user back to the homepage.
 
 
 
@@ -185,7 +207,10 @@ JAVASCRIPT
 
 ### Known Bugs
 
+On the 7th of April whilst doing my write up for features I checked to see if none registered users could make comments on the blog post and they could.  
+
 ### Known Issues
+
 On the 31st of January I had to contact tutor support again and explain that I could not locate the env.py file that I had created twice on my filing system.  I sent tutor support screen shots of my filess.
 
 Tutor Support informed me that it was best to open up my workspace by gitpod.io/workspaces into your url bar. 
