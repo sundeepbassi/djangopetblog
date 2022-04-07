@@ -200,6 +200,26 @@ cloudinary://571451748687539:2KTq0GgqN_vNbGGDB_nWNoN8Lws@sunnyalways
 
 On the 14th of February I had to contact tutor support as I could not make a git commit and I also tried to do it through source control.  I had to do some git commits from the week before.  I had to resubmit my project 3 which took a week to do.  Tutor support said that I would need to do a git pull but the issue was a conflict in the requirements file.  Once this was resolved the tutor support gave me commands to restore my workspace to be able to do git commits.
 
+On the 7th of April I contacted tutor support as I was concerned about the 6 warnings that were showing the the models.py, views.py and settings.py files.  
+
+The tutor support team informed me that 
+
+"I'm good thanks 🙂 the warnings from the views and models here can be ignored
+(screenshot of the terminal window with the warnings for the models.py, views.py and settings.py files.)
+It's an issue with pylint, try putting your code through an online python validator."
+
+I followed the tutor support advice and put the code from models.py, views.py and settings.py files into PEP8 Online check and all 3 files said All Right. 
+
+After doing the Pep8 checks on all 3 files and they passed, the tutor support were happy for me to continue.
+
+"ok perfect looks like you're good to go 🙂
+1:28 pm
+Brilliant Oisin you have been excellent that really reassures me is it ok to mention it in my readme that those warnings can be ignored ? for the assessor
+Oisin profile
+yep you could mention it in your readme and validate all of your python files with the pep8 checker
+Thank you Oisin for your wonderful advise and it really has helped me. Please let your manager know that you have brilliant tutoring skills"
+
+
 
 ### Deployment 
 The project was deployed early on the 1st of February 2022 as recommended by the Code Institute walkthrough I think therefore I blog. 
