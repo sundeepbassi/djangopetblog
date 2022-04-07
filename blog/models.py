@@ -20,9 +20,8 @@ class Post(models.Model):
     content = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
-    likes = models.ManyToManyField(User,
-                                   related_name='blogpost_like',
-                                   blank=True)
+    likes = models.ManyToManyField(
+        User, related_name='blogpost_like', blank=True)
 
     class Meta:
         """Specify ordering tag"""
@@ -33,7 +32,7 @@ class Post(models.Model):
 
     def number_of_likes(self):
         """FIXME - remove "'ManyToManyField' has no 'count' member" warning"""
-        self.likes.count()
+        return self.likes.count()
 
 
 class Comment(models.Model):

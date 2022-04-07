@@ -15,6 +15,33 @@ One of the reasons the usere wanted a blog was to create a forum to keep in touc
 
 ### User Stories
 
+As a site user I want to view a list of posts on the blog so that I can select one to read.
+
+As a site user I want to click on a post in the blog so that I can read the full text.
+
+As a Site User / Admin I can view the number of likes on each post so that I can see which is the most popular or viral
+
+As a Site User / Admin I can view comments on an individual post so that I can read the conversation
+
+As a Site User I can register an account so that I can comment and like
+
+As a Site User I can leave comments on a post so that I can be involved in the conversation
+
+As a site user I want to be able to edit/update a comment that I have made about a post.
+
+As a site user I want to be able to delete a comment that I have made about a post.
+
+As a site user if I decide that I do not want to delete a post I can cancel that option.
+
+As a Site User I can like or unlike a post so that I can interact with the content
+
+As a Site Admin I can create, read, update and delete posts so that I can manage my blog content
+
+As a Site Admin I can create draft posts so that I can finish writing the content later
+
+As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments
+
+
 
 ## Strategy
 
@@ -227,12 +254,25 @@ The final deployment steps
 On the 28th of January tried to do a number of git commits for what I had done for the project.  I noticed the 29th of January that these commits did not show on my github and I did do a git push also.  Student tutors advised me to ensure that all git commits are done once code has been installed and saved in the files.
 The following steps were put into the git commits on the 28th of January. The steps for these installations were shown in the Code Institute Walkthrough project I think therefore I blog.
 
-The layout for the Readme is from Alexander Grib 
+The layout for the Readme is accredited to:
 
-[Alexander Grib](https://github.com/alexandergrib/ms4-store)
+[bulldogjob how to write a good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+Irish Becky's readme was very helpful in giving me a good idea about how to structure the readme and the contents of it.
+
+[Irish Becky's readme](https://github.com/Irishbecky91/student_rations)
+
+
 
 and
 
+Alexander Grib 
+
+[Alexander Grib](https://github.com/alexandergrib/ms4-store)
+
+
+
+Irish Becky's readme was very helpful in giving me a good idea about how to structure the readme and the contents of it.
 [Irish Becky's readme](https://github.com/Irishbecky91/student_rations)
 
 The deployment for the project is accredited to the code institute walkthrough project I think therefore I blog.
@@ -331,10 +371,11 @@ On the 2nd of April I had a my first meeting with my mentor and he advised me en
 
 I contacted tutor aupport and they sent me a youtube video from codemy and a resource link to Djasngo 
 
-I contacted an IT and software development specialist and tutor Mike Youell for support in tutoring me in how to incorpoarate the update and delete fumtionality into the comments section.  Mike guided me through the process with the aid of a youtube video by Codemy [Codemy update & edit a blog](https://www.youtube.com/watch?v=J7xaESAddDQ). With Mikes generous support we were able to set up the update_detail,html file and input the code for that file to display the update function. This was following the Codemy video code.  Mike also explained to me in better detail what the blog urls file was doing when we inputed the code from the Codemy file.  Mike also explained to me what a slug and an int/pk were and the difference in how they are displayed in the url browser.  We then inputted the code into the views fie for the class for updating the comments.  Mike also supported me to look at the code needed for the post_detail file within the comments section. 
+On the 3rd of April 2022, I contacted an IT and software development specialist and tutor Mike Youell for support in tutoring me in how to incorpoarate the update and delete fumtionality into the comments section.  On the 4th of April 2022, Mike guided me through the process with the aid of a youtube video by Codemy [Codemy update & edit a blog](https://www.youtube.com/watch?v=J7xaESAddDQ). With Mikes generous support we were able to set up the update_detail,html file and input the code for that file to display the update function. This was following the Codemy video code.  Mike also explained to me in better detail what the blog urls file was doing when we inputed the code from the Codemy file.  Mike also explained to me what a slug and an int/pk were and the difference in how they are displayed in the url browser.  We then inputted the code into the views fie for the class for updating the comments.  Mike also supported me to look at the code needed for the post_detail file within the comments section. 
 
+On the 5th April 2022, Mike the tutor taught me how to incorporate the CRUD (create, read, update and delete) Process.  We encountered a problem with the comments update process because the edit page was not returning to the comments page and was going to the home page. 
 
-
+ We had to go the post_details html file and we had to in the comments section 
 
 To deploy the site was shown in the walkthrough video I think therefore I blog. Irish Becky's readme helped me to see how to structure the written material for the readme for the deployment process. [Irish Becky's readme](https://github.com/Irishbecky91/student_rations) I also followed the process from the walkthrough video I think therefore I blog.
 

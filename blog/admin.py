@@ -26,6 +26,6 @@ class CommentAdmin(admin.ModelAdmin):
     search_fields = ('name', 'email', 'body')
     actions = ['approve_comments']
 
-    def approve_comments(self, _, queryset):
+    def approve_comments(self, _request, queryset):
         """This method approves the comments"""
         queryset.update(approved=True)

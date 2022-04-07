@@ -1,13 +1,15 @@
+"""This module processes the receiving of web requests and
+returns web responses """
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
-from django.urls import reverse_lazy
 from django.views.generic.edit import UpdateView, DeleteView
 from .forms import CommentForm
 from .models import Post, Comment
 
 
 class PostList(generic.ListView):
+    """This class lists all the blog posts"""
     model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
     template_name = "index.html"
@@ -15,8 +17,9 @@ class PostList(generic.ListView):
 
 
 class PostDetail(View):
-
-    def get(self, request, slug, *args, **kwargs):
+    """This class defines the blog post details"""
+    def get(self, request, slug, *_args, **_kwargs):
+        """Get the blog post details"""
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
         comments = post.comments.filter(approved=True).order_by("-created_on")
@@ -35,10 +38,9 @@ class PostDetail(View):
                 "comment_form": CommentForm()
             },
         )
-    
 
-    def post(self, request, slug, *args, **kwargs):
-
+    def post(self, request, slug, *_args, **_kwargs):
+        """Form post of a blog post"""
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
         comments = post.comments.filter(approved=True).order_by("-created_on")
@@ -70,8 +72,9 @@ class PostDetail(View):
 
 
 class PostLike(View):
-    
-    def post(self, request, slug, *args, **kwargs):
+    """Like a blog post"""
+    def post(self, request, slug, *_args, **_kwargs):
+        """Remove or add a like, as specified"""
         post = get_object_or_404(Post, slug=slug)
         if post.likes.filter(id=request.user.id).exists():
             post.likes.remove(request.user)
@@ -82,21 +85,21 @@ class PostLike(View):
 
 
 class UpdateCommentView(UpdateView):
+    """Update a comment"""
     model = Comment
     template_name = 'update_comment.html'
     fields = ['name', 'body']
-    
+
     def get_success_url(self):
         next_url = self.request.GET['nexturl']
         return next_url
-    #success_url = reverse_lazy('home')
 
 
 class DeleteCommentView(DeleteView):
+    """Delete a comment"""
     model = Comment
     template_name = 'delete_comment.html'
-    
+
     def get_success_url(self):
         next_url = self.request.GET['nexturl']
         return next_url
-    #success_url = reverse_lazy(self.GET.next_url)
