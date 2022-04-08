@@ -117,6 +117,12 @@ NEED TO LOOK UP SCOPE
 
 ### Database Model
 
+- The database model was created for the posts for the blog.
+
+[Database Model for Posts](wireframes/dm1a.jpg)
+
+
+
 ### Design
 
 #### Colour 
@@ -187,11 +193,13 @@ JAVASCRIPT
 
 ### Frameworks, Libraries and Programs Used
 
-- [Git]
+- Git
 
-- [Github]
+- Github
 
 - Django
+
+- Summernote
 
 - Superuser
 
@@ -426,7 +434,7 @@ Mike explained to me whilst tutoring me that it was very good practice to remove
 
 To deploy the site was shown in the walkthrough video I think therefore I blog. Irish Becky's readme helped me to see how to structure the written material for the readme for the deployment process. [Irish Becky's readme](https://github.com/Irishbecky91/student_rations) I also followed the process from the walkthrough video I think therefore I blog.
 
-was shown in the walkthrough video I think therefore I blog.
+The database model for posts was shown in the walkthrough video I think therefore I blog.
 
 
 
