@@ -446,6 +446,8 @@ To deploy the site was shown in the walkthrough video I think therefore I blog. 
 
 The database model for posts was shown in the walkthrough video I think therefore I blog.
 
+The database model for comments was shown in the walkthrough video I think therefore I blog.
+
 
 
 
