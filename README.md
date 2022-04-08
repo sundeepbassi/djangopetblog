@@ -115,11 +115,21 @@ NEED TO LOOK UP SCOPE
 
 ### Database Schema
 
-### Database Model
+### Database Models
 
-- The database model was created for the posts for the blog.
+- The database model diagram was created for the posts for the blog.
 
 [Database Model for Posts](wireframes/dm1a.jpg)
+
+- The database model diagram was created for the comments for the blog.
+
+[Database Model for Comments](wireframes/dabacomments2a.jpg)
+
+
+
+
+
+
 
 
 
