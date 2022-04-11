@@ -448,6 +448,11 @@ The database model for posts was shown in the walkthrough video I think therefor
 
 The database model for comments was shown in the walkthrough video I think therefore I blog.
 
+To handle the authorisation of correct users for the update_comment and the delete_comment was shown by my tutor Mike Youell.  We also followed the video from  [Codemy How to determine the correct user to edit posts](https://www.youtube.com/watch?v=Y1Us5jVT07E).
+
+
+
+
 
 
 
