@@ -463,6 +463,8 @@ To handle the authorisation of correct users for the update_comment and the dele
 
 
 
+
+
 ### Media
 
 The following sites and links below were used for research purposes into developing a pet blog website.
@@ -479,7 +481,10 @@ The following sites and links below were used for research purposes into develop
 
 [Oh My Dog Blog](https://ohmydogblog.com/)
 
-[]()
+
+Images were taken from Pixabay[Pixabay](https://pixabay.com/photos/search/cats/)
+
+
 
 ### Acknowledgments
 

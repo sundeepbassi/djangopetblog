@@ -1,4 +1,7 @@
+
 {% extends "base.html" %}
+
+{% load static %}
 
 {% block content %}
 
@@ -28,18 +31,24 @@
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
                             <hr />
-                            <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i>
+                            <p class="card-text text-muted h6">{{ post.created_on }} <i class="far fa-heart"></i>
                                 {{ post.number_of_likes }}</p>
                         </div>
                     </div>
                 </div>
-                {% if forloop.counter|divisibleby:3 %}
+                    {% if forloop.counter|divisibleby:3 %}
             </div>
             <div class="row">
-                {% endif %}
+                    {% endif %}
                 {% endfor %}
                 <section id="photos">
-                    <img src="static/images/petstog.png" alt="Pets together">
+                    <img src="{% static 'images/petstog.png' %}" alt="Pets together"/>
+                    <img src="{% static 'images/petstog.png' %}" alt=""/>
+                    <img src="{% static 'images/petstog.png' %}" alt=""/>
+                    <img src="{% static 'images/petstog.png' %}" alt=""/>
+                    <img src="{% static 'images/petstog.png' %}" alt=""/>
+                    <img src="{% static 'images/petstog.png' %}" alt=""/>
+                    <img src="{% static 'images/petstog.png' %}" alt=""/>
                     
                 </section>
             </div>
