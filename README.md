@@ -489,6 +489,8 @@ Mike and I chose the Poppins from google fonts [google fonts](https://fonts.goog
 
 Mike and I checked out the best colour tools to compare and contrast the colour scheme for the blog [creativebloq Best colour tools for web designers](https://www.creativebloq.com/advice/the-best-colour-tools-for-web-designers) and [Huesnap](https://www.huesnap.com/).
 
+The information about the fun facts about cats was taken from Purina [Purina](https://www.purina.co.uk/articles/cats/behaviour/common-questions/fun-facts-about-cats)
+
 
 
 ### Acknowledgments
@@ -502,7 +504,7 @@ This project has solely been developed for the purposes of education, research a
 [Uk Government guidance on copyright](https://www.gov.uk/guidance/exceptions-to-copyright)
 
 
-![Agile Kanban board]()
+![Agile Kanban board](https://github.com/sundeepbassi/djangopetblog/projects/2)
 
 
 
