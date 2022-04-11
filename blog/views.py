@@ -8,6 +8,14 @@ from .forms import CommentForm
 from .models import Post, Comment
 
 
+def About(request):
+    return render(request, 'about.html')
+
+
+def Gallery(request):
+    return render(request, 'gallery.html')
+
+
 class PostList(generic.ListView):
     """This class lists all the blog posts"""
     model = Post
@@ -90,6 +98,11 @@ class UpdateCommentView(UpdateView):
     template_name = 'update_comment.html'
     fields = ['name', 'body']
 
+    # After updating a comment, go to the url specified in this function.
+    #
+    # Note that this URL, is the page on which we clicked the Edit link,
+    # this makes more sense to the user, i.e. they edit (update) a comment on a page
+    # then return to that same page, to see the comment updated.
     def get_success_url(self):
         next_url = self.request.GET['nexturl']
         return next_url
@@ -100,6 +113,11 @@ class DeleteCommentView(DeleteView):
     model = Comment
     template_name = 'delete_comment.html'
 
+    # After deleting a comment, go to the url specified in this function.
+    #
+    # Note that this URL, is the page on which we clicked the Delete link,
+    # this makes more sense to the user, i.e. they delete a comment on a page
+    # then return to that same page, to see the comment deleted.
     def get_success_url(self):
         next_url = self.request.GET['nexturl']
         return next_url

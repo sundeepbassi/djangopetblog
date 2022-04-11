@@ -84,8 +84,17 @@
                 <!-- We want a for loop inside the empty control tags to iterate through each comment in comments -->
                 {% for comment in comments %}
                 <div class="comments" style="padding: 10px;">
-                    <a href="{% url 'update_comment' comment.id %}?nexturl={{ request.path | urlencode }}">Edit</a>
-                    <a href="{% url 'delete_comment' comment.id %}?nexturl={{ request.path | urlencode }}">Delete</a>
+                    <!-- If someone is logged in... -->
+                    {% if user.is_authenticated %}
+                        <!-- DEBUG: Comment Author = {{ comment.name }}<br/>
+                        Logged In User = {{ user.username }} -->
+                        <!-- AND if this comment author is the same as the currently logged in user, then... -->
+                        {% if user.username == comment.name %}
+                            <!-- Display the Edit and Delete links -->
+                            <a href="{% url 'update_comment' comment.id %}?nexturl={{ request.path | urlencode }}">Edit</a>
+                            <a href="{% url 'delete_comment' comment.id %}?nexturl={{ request.path | urlencode }}">Delete</a>
+                        {% endif %}
+                    {% endif %}
                     <p class="font-weight-bold">
                         <!-- The commenter's name goes here. Check the model if you're not sure what that is -->
                         {{ comment.name }}

@@ -24,7 +24,7 @@
 
     <!-- Navigation -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #a8dddd;">
         <div class="container-fluid">
             <a class="navbar-brand" href="{% url 'home' %}"><span class="brand">P<span class="red-o">E</span>TS<span
                         class="thin">|STAR</span></span></span></a>
@@ -38,7 +38,7 @@
                         <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{% url 'home' %}">About</a>
+                        <a class="nav-link active" aria-current="page" href="{% url 'about' %}">About</a>
                     </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item">
@@ -51,10 +51,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'account_login' %}">Login</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Gallery</a>
-                    </li>
                     {% endif %}
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'gallery' %}">Gallery</a>
+                    </li>
 
                 </ul>
                 <span class="navbar-text text-muted">
