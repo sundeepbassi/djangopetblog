@@ -481,8 +481,13 @@ The following sites and links below were used for research purposes into develop
 
 [Oh My Dog Blog](https://ohmydogblog.com/)
 
+Mike and I went through the pet logos on pixabay and found this to be the best for the blog.[Pixabay](https://cdn.pixabay.com/photo/2016/03/31/20/41/friends-1295970__480.png)
 
 Images were taken from Pixabay[Pixabay](https://pixabay.com/photos/search/cats/)
+
+Mike and I chose the Poppins from google fonts [google fonts](https://fonts.google.com/specimen/Poppins)
+
+Mike and I checked out the best colour tools to compare and contrast the colour scheme for the blog [creativebloq Best colour tools for web designers](https://www.creativebloq.com/advice/the-best-colour-tools-for-web-designers) and [Huesnap](https://www.huesnap.com/).
 
 
 
