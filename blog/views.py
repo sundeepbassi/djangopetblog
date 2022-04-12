@@ -4,15 +4,19 @@ from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
 from django.views.generic.edit import UpdateView, DeleteView
+from django.contrib import messages
+from django.contrib.messages.views import SuccessMessageMixin
 from .forms import CommentForm
 from .models import Post, Comment
 
 
-def About(request):
+def about(request):
+    """ Render the About page """
     return render(request, 'about.html')
 
 
-def Gallery(request):
+def gallery(request):
+    """ Render the Gallery page """
     return render(request, 'gallery.html')
 
 
@@ -92,17 +96,18 @@ class PostLike(View):
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
-class UpdateCommentView(UpdateView):
+class UpdateCommentView(SuccessMessageMixin, UpdateView):
     """Update a comment"""
     model = Comment
     template_name = 'update_comment.html'
+    success_message = "Your comment was successfully updated."
     fields = ['name', 'body']
 
     # After updating a comment, go to the url specified in this function.
     #
     # Note that this URL, is the page on which we clicked the Edit link,
-    # this makes more sense to the user, i.e. they edit (update) a comment on a page
-    # then return to that same page, to see the comment updated.
+    # this makes more sense to the user, i.e. they edit (update) a comment
+    # on a page then return to that same page, to see the comment updated.
     def get_success_url(self):
         next_url = self.request.GET['nexturl']
         return next_url
@@ -112,6 +117,11 @@ class DeleteCommentView(DeleteView):
     """Delete a comment"""
     model = Comment
     template_name = 'delete_comment.html'
+    success_message = "Your comment was successfully deleted."
+
+    def delete(self, request, *args, **kwargs):
+        messages.success(self.request, self.success_message)
+        return super(DeleteCommentView, self).delete(request, *args, **kwargs)
 
     # After deleting a comment, go to the url specified in this function.
     #
