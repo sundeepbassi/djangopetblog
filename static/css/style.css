@@ -147,14 +147,36 @@ body {
 }
 
 /* gallery */
-
+/*
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 4;
+    column-count: 0;
     column-gap: 0;
 }
 
 #photos > img {
     width: 100%;
+}*/
+
+/*
+.photo_gallery {
+    display: flex;    
+}
+
+.photo_gallery a {
+    display: inline-block;
+    height: 300px;
+}
+
+.photo_gallery img {
+    object-position: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+*/
+
+.row {
+    margin: 15px;
 }

@@ -1,4 +1,3 @@
-
 {% extends "base.html" %}
 
 {% load static %}
@@ -17,10 +16,10 @@
                         <div class="card-body">
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
-                                <img class="card-img-top"
+                                <img alt="" class="card-img-top"
                                     src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
                                 {% else %}
-                                <img class="card-img-top" src=" {{ post.featured_image.url }}">
+                                <img alt="" class="card-img-top" src=" {{ post.featured_image.url }}">
                                 {% endif %}
                                 <div class="image-flash">
                                     <p class="author">Author: {{ post.author }}</p>
@@ -37,16 +36,43 @@
                     </div>
                 </div>
                     {% if forloop.counter|divisibleby:3 %}
-            </div>
-            <div class="row">
+            
                     {% endif %}
                 {% endfor %}
-                <section id="photos">
+            </div>
+             <!--
                     <img src="{% static 'images/petstog.png' %}" alt="Pets together"/>
                     <img src="{% static 'images/dog-on-bed.png' %}" alt="Dog on bed"/>
                     <img src="{% static 'images/rabbit.jpg' %}" alt="Rabbit"/>
                     <img src="{% static 'images/hedgehog.png' %}" alt="Hedgehog"/>
-                </section>
+                -->
+            
+
+            <div class="container">
+                <div class="container">
+                    <div class="row">
+                      <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                        <img alt="" src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
+                      </a>
+                      <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                        <img alt="" src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
+                      </a>
+                      <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                        <img alt="" src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
+                      </a>
+                    </div>
+                    <div class="row">
+                      <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                        <img alt="" src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
+                      </a>
+                      <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                        <img alt="" src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
+                      </a>
+                      <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                        <img alt="" src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
+                      </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
