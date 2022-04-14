@@ -14,10 +14,10 @@
                         <div class="card-body">
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
-                                <img alt="" class="card-img-top"
+                                <img alt="Placeholder image" class="card-img-top"
                                     src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
                                 {% else %}
-                                <img alt="" class="card-img-top" src=" {{ post.featured_image.url }}">
+                                <img alt="Featured image" class="card-img-top" src=" {{ post.featured_image.url }}">
                                 {% endif %}
                                 <div class="image-flash">
                                     <p class="author">Author: {{ post.author }}</p>
@@ -28,8 +28,13 @@
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
                             <hr />
-                            <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i>
-                                {{ post.number_of_likes }}</p>
+                            <p class="card-text h6">{{ post.created_on}}
+                                <!-- Ensure the number of likes is always next to the heart symbol -->
+                                <span style="white-space: nowrap; display: inline">
+                                    <span class="far fa-heart"></span>
+                                    {{ post.number_of_likes }}
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </div>
