@@ -10,17 +10,17 @@ from .forms import CommentForm
 from .models import Post, Comment
 
 
-def about(request):
+def display_about_page(request):
     """ Render the About page """
     return render(request, 'about.html')
 
 
-def gallery(request):
+def display_gallery_page(request):
     """ Render the Gallery page """
     return render(request, 'gallery.html')
 
 
-class PostList(generic.ListView):
+class DisplayAllBlogPosts(generic.ListView):
     """This class lists all the blog posts"""
     model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
@@ -28,7 +28,7 @@ class PostList(generic.ListView):
     paginate_by = 6
 
 
-class PostDetail(View):
+class DisplayBLogPost(View):
     """This class defines the blog post details"""
     def get(self, request, slug, *_args, **_kwargs):
         """Get the blog post details"""
@@ -55,12 +55,14 @@ class PostDetail(View):
         """Form post of a blog post"""
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
+
         comments = post.comments.filter(approved=True).order_by("-created_on")
         liked = False
         if post.likes.filter(id=self.request.user.id).exists():
             liked = True
 
         comment_form = CommentForm(data=request.POST)
+        # Validate the comment form
         if comment_form.is_valid():
             comment_form.instance.email = request.user.email
             comment_form.instance.name = request.user.username
@@ -83,7 +85,7 @@ class PostDetail(View):
         )
 
 
-class PostLike(View):
+class LikeBlogPost(View):
     """Like a blog post"""
     def post(self, request, slug, *_args, **_kwargs):
         """Remove or add a like, as specified"""
@@ -96,12 +98,12 @@ class PostLike(View):
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
-class UpdateCommentView(SuccessMessageMixin, UpdateView):
-    """Update a comment"""
+class UpdateBlogPostComment(SuccessMessageMixin, UpdateView):
+    """Update a blog post comment"""
     model = Comment
     template_name = 'update_comment.html'
     success_message = "Your comment was successfully updated."
-    fields = ['name', 'body']
+    fields = ['body']
 
     # After updating a comment, go to the url specified in this function.
     #
@@ -113,15 +115,16 @@ class UpdateCommentView(SuccessMessageMixin, UpdateView):
         return next_url
 
 
-class DeleteCommentView(DeleteView):
-    """Delete a comment"""
+class DeleteBlogPostComment(DeleteView):
+    """Delete a blog post comment"""
     model = Comment
     template_name = 'delete_comment.html'
     success_message = "Your comment was successfully deleted."
 
     def delete(self, request, *args, **kwargs):
         messages.success(self.request, self.success_message)
-        return super(DeleteCommentView, self).delete(request, *args, **kwargs)
+        return super(DeleteBlogPostComment,
+                     self).delete(request, *args, **kwargs)
 
     # After deleting a comment, go to the url specified in this function.
     #

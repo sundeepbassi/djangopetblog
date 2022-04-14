@@ -31,7 +31,7 @@ class Post(models.Model):
         return str(self.title)
 
     def number_of_likes(self):
-        """FIXME - remove "'ManyToManyField' has no 'count' member" warning"""
+        """Return number of likes"""
         return self.likes.count()
 
 
@@ -39,7 +39,7 @@ class Comment(models.Model):
     """This class specifies the comments"""
     post = models.ForeignKey(Post, on_delete=models.CASCADE,
                              related_name="comments")
-    name = models.CharField(max_length=80)
+    name = models.CharField(max_length=80, editable=False)
     email = models.EmailField()
     body = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
