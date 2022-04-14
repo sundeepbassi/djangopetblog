@@ -4,6 +4,13 @@
 <div class="masthead">
     <div class="container">
         <div class="row g-0">
+            {% if commented %}
+            <!-- Tell the user that their comment is awaiting approval -->
+            <div class="alert alert-success alert-dismissible fade show" id="msg" role="alert">
+                Your comment is awaiting approval
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endif %}
             <div class="col-md-6 masthead-text">
                 <!-- Post title goes in these h1 tags -->
                 <h1 class="post-title">{{ post.title }}</h1>
@@ -13,9 +20,9 @@
             <div class="d-none d-md-block col-md-6 masthead-image">
                 <!-- The featured image URL goes in the src attribute -->
                 {% if "placeholder" in post.featured_image.url %}
-                <img alt="" src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" width="100%">
+                <img alt="Placeholder image" src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" style="width: 100%">
                 {% else %}
-                <img alt="" src=" {{ post.featured_image.url }}" width="100%">
+                <img alt="Featured image" src="{{ post.featured_image.url }}" style="width: 100%">
                 {% endif %}
             </div>
         </div>
@@ -28,42 +35,42 @@
             <div class="card-body">
                 <!-- The post content goes inside the card-text. -->
                 <!-- Use the | safe filter inside the template tags -->
-                <p class="card-text ">
+                <div class="card-text ">
                     {{ post.content | safe }}
-                </p>
+                </div>
                 <div class="row">
 
                     <div class="col-1">
-                        <strong>
+                        <div style="font-weight: 700">
                             {% if user.is_authenticated %}
                             <form class="d-inline" action="{% url 'post_like' post.slug %}" method="POST">
                                 {% csrf_token %}
                                 {% if liked %}
 
                                 <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like"><i
-                                class="fas fa-heart"></i></button>
+                                class="fas fa-heart" title="Click here to unlike this comment"></i></button>
 
                                 {% else %}
                                  
                                 <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like"><i
-                                    class="far fa-heart"></i></button>
+                                    class="far fa-heart" title="Click here to like this comment"></i></button>
 
 
                                 {% endif %}
 
                             </form>
-                            {% else %}
+                            {% else %} <!-- If not logged in -->
 
-                            <span class="text-secondary"><i class="far fa-heart"></i></span>
+                            <span class="text-secondary"><i class="far fa-heart" title="Must be logged in to like a comment"></i></span>
                             {% endif %}
                             <span class="text-secondary"> {{ post.number_of_likes }}</span>
-                        </strong>
+                        </div>
                         <!-- The number of likes goes before the closing strong tag -->
                         
                     </div>
                     <div class="col-1">
                         {% with comments.count as total_comments %}
-                        <strong class="text-secondary"><i class="far fa-comments"></i>
+                        <strong class="text-secondary"><i class="far fa-comments" title="Total number of comments for this blog post"></i>
                             <!-- Our total_comments variable goes before the closing strong tag -->
                             {{ total_comments }}</strong>
                         {% endwith %}
@@ -83,22 +90,25 @@
             <div class="card-body">
                 <!-- We want a for loop inside the empty control tags to iterate through each comment in comments -->
                 {% for comment in comments %}
-                <div class="comments" style="padding: 10px;">
+                <div class="comments rounded" style="margin-bottom: 10px; padding: 10px; background-color: #cef1fa; color: black">
                     <!-- If someone is logged in... -->
                     {% if user.is_authenticated %}
-                        <!-- DEBUG: Comment Author = {{ comment.name }}<br/>
-                        Logged In User = {{ user.username }} -->
+                        <!--
+                            NOTE:
+                            Comment Author = {{ comment.name }}
+                            Logged In User = {{ user.username }}
+                        -->
                         <!-- AND if this comment author is the same as the currently logged in user, then... -->
                         {% if user.username == comment.name %}
                             <!-- Display the Edit and Delete links -->
-                            <a href="{% url 'update_comment' comment.id %}?nexturl={{ request.path | urlencode }}">Edit</a>
-                            <a href="{% url 'delete_comment' comment.id %}?nexturl={{ request.path | urlencode }}">Delete</a>
+                            <a class="btn btn-primary btn-sm comment-edit-button" title="Edit comment" role="button" href="{% url 'update_comment' comment.id %}?nexturl={{ request.path | urlencode }}">Edit</a>
+                            <a class="btn btn-danger btn-sm" title="Delete comment" role="button" href="{% url 'delete_comment' comment.id %}?nexturl={{ request.path | urlencode }}">Delete</a>
                         {% endif %}
                     {% endif %}
                     <p class="font-weight-bold">
                         <!-- The commenter's name goes here. Check the model if you're not sure what that is -->
                         {{ comment.name }}
-                        <span class=" text-muted font-weight-normal">
+                        <span class="font-weight-normal">
                             <!-- The comment's created date goes here -->
                             {{ comment.created_on }}
                         </span> wrote:
@@ -113,21 +123,17 @@
         <div class="col-md-4 card mb-4  mt-3 ">
             <div class="card-body">
                 <!-- For later -->
-                {% if commented %}
-                <div class="alert alert-success" role="alert">
-                    Your comment is awaiting approval
-                </div>
-                {% else %}
-                {% if user.is_authenticated %}
+                {% if not commented %}
+                    {% if user.is_authenticated %}
 
                 <h3>Leave a comment:</h3>
-                <p>Posting as: {{ user.username }}</p>
+                <p>Posting as: <b>{{ user.username }}</b></p>
                 <form method="post" style="margin-top: 1.3em;">
-                    {{ comment_form | crispy }}
-                    {% csrf_token %}
+                        {{ comment_form | crispy }}
+                        {% csrf_token %}
                     <button type="submit" class="btn btn-primary btn-lg">Submit</button>
                 </form>
-                {% endif %}
+                    {% endif %}
                 {% endif %}
             </div>
         </div>
