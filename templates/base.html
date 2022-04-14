@@ -1,5 +1,4 @@
 {% load static %}
-
 <!DOCTYPE html>
 <html lang="en" class="h-100">
 
@@ -8,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,16 +24,11 @@
 <body class="d-flex flex-column h-100 main-bg">
 
     <!-- Navigation -->
-    <!-- Light blue: #a8dddd -->
-    <!-- Light yellow: #EFED98 -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f7b1d7;">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            
-            <!-- <a class="navbar-brand" href="{% url 'home' %}"><span class="brand">P<span class="red-o">E</span>TS<span
-                class="thin">|STAR</span></span></span></a> -->
             <a class="navbar-brand" href="{% url 'home' %}">
                 <span class="brand">
-                    <img src="{% static 'images/cat-and-dog-logo.png' %}" alt="Animation of cat and dog" style="width: 60px; height: 60px" />
+                    <img class="rounded" id="navbar-logo" src="{% static 'images/cat-and-dog-logo.png' %}" title="Logo - Cat and dog" alt="Logo - Cat and dog"/>
                 </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -67,7 +60,7 @@
                     </li>
 
                 </ul>
-                <span class="navbar-text text-muted">
+                <span class="navbar-text">
                     Welcome to Petstar - a blog about pets for pet lovers
                 </span>
             </div>
