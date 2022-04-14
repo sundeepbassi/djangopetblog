@@ -14,6 +14,18 @@ body {
     color: #4A4A4F;
 }
 
+/* Make the text in the navbar black, so it has good contrast with the navbar background */
+.nav-link, .navbar-text, .navbar {
+    color: black !important;
+    background-color: #f7b1d7;
+}
+
+/* Set the width and height of the logo (in the navbar) */
+#navbar-logo {
+    width: 60px;
+    height: 60px;
+}
+
 .red-o {
     color: #E84610;
 }
@@ -62,7 +74,6 @@ body {
     overflow: hidden;
     position: relative;
     display: inline-block;
-    height: 33vh;
     width: 100%;
 }
 
@@ -179,4 +190,11 @@ body {
 
 .row {
     margin: 15px;
+}
+
+
+/* The Blog Post Comment Edit button */
+.comment-edit-button {
+    background-color:#0bac71 !important;
+    border-color: #0bac71 !important;
 }
