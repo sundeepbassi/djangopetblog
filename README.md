@@ -136,10 +136,10 @@ NEED TO LOOK UP SCOPE
 ### Design
 
 #### Colour 
+Stacey is also an artist and chose the colour scheme for the blog.  She wanted to contrast the colour for the heading against the simple white background so as to create interest for the users and to make the blog look more welcoming. The individual blog card posts were also given a hint of light blue backround so that they would be recognised as blog post cards.
 
 #### typography
-
-#### Images
+The font used for the blog is Poppins from google fonts.  We felt that this font looked very stylish and with further research realised this font added simplicity and easy readability for the user. [SmartBug My favourite fonts right now](https://www.smartbugmedia.com/blog/design-trends-fonts#:~:text=Poppins%20is%20geometric%20in%20style,to%20improve%20readability%20and%20style.)
 
 ### Features
 
@@ -439,6 +439,7 @@ On the 5th April 2022, Mike the tutor taught me how to incorporate the CRUD (cre
  We had to go the post_details html file and we had to in the comments section 
 
 On the 6th of April Mike tutored me to check the warnings in the python files and to use a search engine to input the warnings and to find the best solutions to remove the warnings from the terminal windows. [Stack overflow](https://stackoverflow.com/questions/54102214/django-how-to-set-background-colour-in-html-based-on-context)
+
 and [Django documentation](https://docs.djangoproject.com/en/4.0/topics/db/examples/many_to_many/) were to very useful resources in helping to eradicate these warnings.
 Mike explained to me whilst tutoring me that it was very good practice to remove warnings and bugs as soon as possible as it stopped any build up of warnings and bugs.  He also explained that if the code had been altered through this process then it was easier to see if there were any problems when the site is being displayed.
 
@@ -449,12 +450,6 @@ The database model for posts was shown in the walkthrough video I think therefor
 The database model for comments was shown in the walkthrough video I think therefore I blog.
 
 To handle the authorisation of correct users for the update_comment and the delete_comment was shown by my tutor Mike Youell.  We also followed the video from  [Codemy How to determine the correct user to edit posts](https://www.youtube.com/watch?v=Y1Us5jVT07E).
-
-
-
-
-
-
 
 
 
@@ -489,9 +484,14 @@ Mike and I chose the Poppins from google fonts [google fonts](https://fonts.goog
 
 Mike and I checked out the best colour tools to compare and contrast the colour scheme for the blog [creativebloq Best colour tools for web designers](https://www.creativebloq.com/advice/the-best-colour-tools-for-web-designers) and [Huesnap](https://www.huesnap.com/).
 
+The bootstrap buttons information was checked on w3schools [w3schools](https://www.w3schools.com/bootstrap/bootstrap_buttons.asp)
 
+The information about dog breeds was taken from The pet express [The Pet express](https://www.thepetexpress.co.uk/blog/dog-breed-guides/breed-guide-border-collie/)
 
 The information about the fun facts about cats was taken from Purina [Purina](https://www.purina.co.uk/articles/cats/behaviour/common-questions/fun-facts-about-cats)
+
+The information about rabbits was taken from National Geographic Kids [National Geographic Kids](https://www.natgeokids.com/uk/discover/animals/general-animals/10-hopping-fun-rabbit-facts/)
+
 
 
 
