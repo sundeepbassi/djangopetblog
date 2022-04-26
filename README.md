@@ -79,9 +79,9 @@ This will be the person who can manage the administration of the site.
 
 ### Development Planes
 
-The blog will allow the user to{
+The blog will allow the user to:
 
-  - To see and read posts about pets and animal welfare.
+  - See and read posts about pets and animal welfare.
 
   - To have the opportunity to register and sign up as a user.
 
@@ -488,6 +488,8 @@ Images were taken from Pixabay[Pixabay](https://pixabay.com/photos/search/cats/)
 Mike and I chose the Poppins from google fonts [google fonts](https://fonts.google.com/specimen/Poppins)
 
 Mike and I checked out the best colour tools to compare and contrast the colour scheme for the blog [creativebloq Best colour tools for web designers](https://www.creativebloq.com/advice/the-best-colour-tools-for-web-designers) and [Huesnap](https://www.huesnap.com/).
+
+
 
 The information about the fun facts about cats was taken from Purina [Purina](https://www.purina.co.uk/articles/cats/behaviour/common-questions/fun-facts-about-cats)
 
