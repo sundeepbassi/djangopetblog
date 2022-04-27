@@ -10,7 +10,7 @@
             <div class="row">
                 {% for post in post_list %}
                 <div class="col-md-4">
-                    <div class="card mb-4" style="background-color: #eef9fc">
+                    <div class="blog-post-card card mb-4">
                         <div class="card-body">
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
@@ -29,8 +29,7 @@
                             </a>
                             <hr />
                             <p class="card-text h6">{{ post.created_on}}
-                                <!-- Ensure the number of likes is always next to the heart symbol -->
-                                <span style="white-space: nowrap; display: inline">
+                                <span class="comment-heart">
                                     <span class="far fa-heart"></span>
                                     {{ post.number_of_likes }}
                                 </span>

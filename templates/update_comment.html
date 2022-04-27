@@ -20,7 +20,7 @@
                 <div class="form-group">
                     <form method="POST">
                         {% csrf_token %}
-                        <textarea name="body" rows="10" required="" id="id_body" style="width: 100%; padding: 15px">{{ comment.body }}</textarea>
+                        <textarea class="comment-textarea" name="body" rows="10" required="" id="id_body">{{ comment.body }}</textarea>
                         <br/><br/>
                         <button class="btn btn-primary" title="Save changes to updated comment">Update</button>
                         <a href="{{ request.GET.nexturl }}" class="btn btn-secondary" title="Abort editing comment">Cancel</a>

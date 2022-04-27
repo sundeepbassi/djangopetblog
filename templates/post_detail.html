@@ -20,9 +20,9 @@
             <div class="d-none d-md-block col-md-6 masthead-image">
                 <!-- The featured image URL goes in the src attribute -->
                 {% if "placeholder" in post.featured_image.url %}
-                <img alt="Placeholder image" src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" style="width: 100%">
+                <img alt="Placeholder image" src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
                 {% else %}
-                <img alt="Featured image" src="{{ post.featured_image.url }}" style="width: 100%">
+                <img alt="Featured image" src="{{ post.featured_image.url }}">
                 {% endif %}
             </div>
         </div>
@@ -41,7 +41,7 @@
                 <div class="row">
 
                     <div class="col-1">
-                        <div style="font-weight: 700">
+                        <div class="heart-block"
                             {% if user.is_authenticated %}
                             <form class="d-inline" action="{% url 'post_like' post.slug %}" method="POST">
                                 {% csrf_token %}
@@ -90,7 +90,7 @@
             <div class="card-body">
                 <!-- We want a for loop inside the empty control tags to iterate through each comment in comments -->
                 {% for comment in comments %}
-                <div class="comments rounded" style="margin-bottom: 10px; padding: 10px; background-color: #cef1fa; color: black">
+                <div class="comments rounded">
                     <!-- If someone is logged in... -->
                     {% if user.is_authenticated %}
                         <!--
@@ -128,7 +128,7 @@
 
                 <h3>Leave a comment:</h3>
                 <p>Posting as: <b>{{ user.username }}</b></p>
-                <form method="post" style="margin-top: 1.3em;">
+                <form class="card-body-form" method="post">
                         {{ comment_form | crispy }}
                         {% csrf_token %}
                     <button type="submit" class="btn btn-primary btn-lg">Submit</button>
