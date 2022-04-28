@@ -249,3 +249,11 @@ body {
 .masthead-image img {
     width: 100%
 }
+
+/* Stylise sign up and login forms */
+form.signup input[type='text'], input[type='password'], input[type='email'] {
+    width: 100%
+}
+form.login input[type='text'], input[type='password'], input[type='email'] {
+    width: 100%
+}
