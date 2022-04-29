@@ -161,36 +161,10 @@ body {
     border: none;
 }
 
-/* gallery */
-/*
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 0;
-    column-gap: 0;
+/* Ensure the gallery images have vertical spaces between them when on a small device */
+.img-fluid {
+    margin-bottom: 20px;
 }
-
-#photos > img {
-    width: 100%;
-}*/
-
-/*
-.photo_gallery {
-    display: flex;    
-}
-
-.photo_gallery a {
-    display: inline-block;
-    height: 300px;
-}
-
-.photo_gallery img {
-    object-position: center;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-}
-*/
 
 .row {
     margin: 15px;
