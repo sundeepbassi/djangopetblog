@@ -60,7 +60,7 @@ As a Site Admin I can approve or disapprove comments so that I can filter out ob
 
 - Managing Site Admin
 
-#### Interestd Users
+#### Interested Users
 
 - Users who have pets and are passionate about animal welfare.
 
@@ -228,6 +228,8 @@ JAVASCRIPT
 On the 7th of April whilst doing my write up for features I checked to see if none registered users could make comments on the blog post and they could.  
 
 ### Known Issues
+
+Noticed Google Chrome browser was autofilling fields in the registration form (sign up), which isn't appropriate, of course it's ok if Chrome autofills the login form, however, we don't want it to autofill the registration form. We realised that Chrome must have mistakenly remembered the autofill on that form, somewhere in development, however, we tested it in Chrome using a new profile, and it no longer offered to remember, and also it didn't autofill the fields. We believe this won't happen for other people.
 
 On the 31st of January I had to contact tutor support again and explain that I could not locate the env.py file that I had created twice on my filing system.  I sent tutor support screen shots of my filess.
 
