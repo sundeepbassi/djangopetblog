@@ -127,7 +127,12 @@ The login page for the blog.
 
 Both the about page and the gallery page wireframes were created during the implementation of the blog as we realised that these pages would add interest and extra information about the blog.
 
+The About page for the blog.
 
+
+The Gallery page for the blog.
+
+[Gallery](wireframes/gallery.png)
 
 ### Database Schema
 
