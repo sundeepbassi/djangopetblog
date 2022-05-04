@@ -6,12 +6,10 @@
 
 This blog was created for a user who has an interest in animal welfare and people who loves their pets.
 
-The users name is Stacey for confidentiality purposes the name has been adopted as the user wanted to stay anonymous.  
-
-The background of the user is a single mother staying at home taking care of her children and animals that she has rescued.  The user has always had an interest in taking care of animals and rescuing animals that have been injured.  The user usually uses social media to keep in touch with people that share an interest in animal welfare.
+The user has always had a passion in taking care of animals and rescuing animals that have been injured.  The user usually uses social media to keep in touch with people that share an interest in animal welfare.
 
 ### Initial Discussion
-One of the reasons the usere wanted a blog was to create a forum to keep in touch with fellow animal lovers and to also raise awareness about animal welfare. As the user stated "a social media platform for animal lovers and the joy we share in looking after them, our furry companions"
+One of the reasons the user wanted a blog was to create a forum to keep in touch with fellow animal lovers and to also raise awareness about animal welfare. As the user stated "a social media platform for animal lovers and the joy we share in looking after them, our furry companions"
 
 
 
@@ -172,7 +170,7 @@ The delete a comment page.
 #### Colour 
 Stacey is also an artist and chose the colour scheme for the blog.  She wanted to contrast the colour for the heading against the simple white background so as to create interest for the users and to make the blog look more welcoming. The individual blog card posts were also given a hint of light blue backround so that they would be recognised as blog post cards.
 
-#### typography
+#### Typography
 The font used for the blog is Poppins from google fonts.  We felt that this font looked very stylish and with further research realised this font added simplicity and easy readability for the user. [SmartBug My favourite fonts right now](https://www.smartbugmedia.com/blog/design-trends-fonts#:~:text=Poppins%20is%20geometric%20in%20style,to%20improve%20readability%20and%20style.)
 
 ### Features
@@ -213,7 +211,12 @@ The login is for existing users to access the site.  There is a header and foote
 
 #### Update A Comment
 
+On this page the user is able to update a comment that they have made on a particular post. The user was also given the option to have a cancel button if they decided to change their minds.
+
 #### Delete A Comment
+
+On this page the user is able to delete a comment that they have made on a particular post. The user was also given the option to have a cancel button if they decided to change their minds.
+
 
 #### Logout
 Signed up users can logout after signing into the blog. This will redirect the user back to the homepage.
@@ -251,9 +254,99 @@ JAVASCRIPT
 
 - Cloudinary 
 
-### Testing
+## Testing
 
 ### Testing User Stories from User Experience (UX) Section
+
+
+As a site user I want to view a list of posts on the blog so that I can select one to read.
+
+- There are 3 posts on the blog that the user can choose and read one.
+
+- [Blog Posts](static/images/blogposts.png)
+
+As a site user I want to click on a post in the blog so that I can read the full text.
+
+- A post with full text for the user to read.
+
+- [Post with full text](static/images/fulltext.png)
+
+As a Site User / Admin I can view the number of likes on each post so that I can see which is the most popular or viral.
+
+- The Site User / Admin can view number of likes on each post. The heart symbol shows the number of likes for that post next to it.
+
+- [Number of likes](static/images/likes.png)
+
+As a Site User / Admin I can view comments on an individual post so that I can read the conversation.
+
+- The Site User / Admin is able to view comments on an individual post.
+
+- [View comments on a post](static/images/readcom.png)
+
+As a Site User I can register an account so that I can comment and like.
+
+- The site user is able to register an account on this site.
+
+- [Account registration for user](static/images/register.png)
+
+As a Site User I can leave comments on a post so that I can be involved in the conversation.
+
+- Site user can leave a comment on a post.
+
+- [Site users comments](static/images/makecomm.png)
+
+
+
+As a site user I want to be able to edit/update a comment that I have made about a post.
+
+- The site user is able to edit/update a comment about a post, the user has to click the green edit button.
+
+- [Edit/update a comment](static/images/edcomm.png)
+
+- Then the user is taken to the edit page and they can edit their comment or press the cancel button if they decide to change their mind and it will take them back.
+
+- [Edit page](static/images/editpage.png)
+
+As a site user I want to be able to delete a comment that I have made about a post.
+
+- The site user is able to delete a comment about a post, the user has to click the red delete button.
+
+- [Delete a comment](static/images/deletebutton.png)
+
+- Then the user is taken to the delete page and they can delete their comment or press the cancel button if they decide to change their mind and it will take them back.
+
+- [Delete page](static/images/deletepage.png)
+
+As a site user if I decide that I do not want to delete a post I can cancel that option.
+
+- The user has been given the option of a button to cancel deleting a comment if they change their mind.
+
+- [Cancel button on delete page](static/images/deletepage.png)
+
+
+As a Site User I can like or unlike a post so that I can interact with the content.
+
+- The site user is able to click on the heart symbol to like or unlike a post.
+
+- [Like or Unlike a post](static/images/userlike.png)
+
+As a Site Admin I can create, read, update and delete posts so that I can manage my blog content.
+
+- The Admin is able to create, read update and delete posts in the admin section of the blog.
+
+- [Admin crud functions](static/images/admpost.png)
+
+As a Site Admin I can create draft posts so that I can finish writing the content later.
+
+- The admin is able to write draft posts as the status can be switched to published if the admin wants to publish a post.
+
+- [Draft post status](static/images/admdraft.png)
+
+As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments
+
+- The Admin can approve or delete comments in the select comment to change section of the Django administration. The green ticked comments have been approved and the one with the red cross is awaiting to be checked by the admin for approval or disapproval.
+
+- [Admin control over comments](static/images/apprcomm.png)
 
 ### Further Testing
 
