@@ -125,6 +125,10 @@ The login page for the blog.
 
 [Login page](wireframes/signin2.png)
 
+Both the about page and the gallery page wireframes were created during the implementation of the blog as we realised that these pages would add interest and extra information about the blog.
+
+
+
 ### Database Schema
 
 ### Database Models
