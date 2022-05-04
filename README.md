@@ -143,6 +143,10 @@ The edit a comment page.
 
 [Edit a comment page](wireframes/edit.png)
 
+The delete a comment page.
+
+[Delete a comment page](wireframes/delete.png)
+
 ### Database Schema
 
 ### Database Models
