@@ -129,10 +129,19 @@ Both the about page and the gallery page wireframes were created during the impl
 
 The About page for the blog.
 
+[About](wireframes/about.png)
 
 The Gallery page for the blog.
 
 [Gallery](wireframes/gallery.png)
+
+This is a wireframe below for a registered user. The registered user can make a comment on a post and also edit and delete their specific comment.
+
+[Registered user logged in](wireframes/loggedin.png)
+
+The edit a comment page.
+
+[Edit a comment page](wireframes/edit.png)
 
 ### Database Schema
 
