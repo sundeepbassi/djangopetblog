@@ -113,6 +113,10 @@ NEED TO LOOK UP SCOPE
 
 ### Wireframes
 
+The registration sign up page for the blog.
+
+[Signup page](wireframes/signup2.png)
+
 ### Database Schema
 
 ### Database Models
