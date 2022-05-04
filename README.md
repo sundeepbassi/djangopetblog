@@ -113,9 +113,17 @@ NEED TO LOOK UP SCOPE
 
 ### Wireframes
 
+The home page for the blog
+
+[Homepage](wireframes/homepage2.png)
+
 The registration sign up page for the blog.
 
 [Signup page](wireframes/signup2.png)
+
+The login page for the blog.
+
+[Login page](wireframes/signin2.png)
 
 ### Database Schema
 
