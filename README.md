@@ -348,6 +348,7 @@ As a Site Admin I can approve or disapprove comments so that I can filter out ob
 
 - [Admin control over comments](static/images/apprcomm.png)
 
+
 ### Further Testing
 
 ### Manual Testing
@@ -389,11 +390,39 @@ During the testing process we decided to see if we could edit another users comm
 
 #### Cybersecurity Testing
 
-- [Empty Sign In](static/images/cybertest.png)
+- [Edit](static/images/cybertest.png)
 
 This same process was also applied to the delete comments and we were blocked from deleting another users comment (because we had added similar security code to block this).  An appropriate error message was displayed.
 
-- [Empty Sign In](static/images/deletecomment.png)
+- [Delete](static/images/deletecomment.png)
+
+#### Comment Testing
+
+When we tried to add a comment we were notified that our comment was awaiting approval.
+
+- [Add a Comment](static/images/commapproval.png)
+
+I went to admin section to see if the comment had been added (it had been added and correctly awaiting approval)
+
+- [Add a Comment awaiting approval](static/images/awaiting.png)
+
+- [Comments Section without comment](static/images/comms.png)
+
+
+The comment has been approved in the admin section.
+
+- [Approved Comment in Admin](static/images/approved.png)
+
+Now that the comment has been approved by the admin it is being displayed in the comments section of that blog post.
+- [Displayed Comment in comments section](static/images/commsubmit.png)
+
+
+
+
+
+
+
+
 
 
 
