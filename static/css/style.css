@@ -239,3 +239,8 @@ form.login input[type='text'], input[type='password'], input[type='email'] {
     height: 40px;
     padding: 10px;
 }
+
+/* Hide the text 'Body *' from the 'add a comment' form, as it shouldn't really show */
+#div_id_body label {
+    display: none
+}
