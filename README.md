@@ -181,7 +181,7 @@ The font used for the blog is Poppins from google fonts.  We felt that this font
 
 #### Navigation
 
-I decided to keep the main navigation to the left hand side of the user to view as this is where most viewers and users are known to view  awebsite first.  get evidence from ???
+- I decided to keep the main navigation to the left hand side of the user to view as this is where most viewers and users are known to view  awebsite first.  get evidence from ???
 
 #### Header 
 
@@ -190,36 +190,36 @@ I wanted to keep the header simple and easy to use for the user.  Thereby not ov
 
 #### Footer
 
-The footer incorporates the social media icons for the user to link on to. There is also a statement about the blog being created by petlovers so to reinforce the value to the user that the site has been made by petlovers for petlovers and their pets.
+- The footer incorporates the social media icons for the user to link on to. There is also a statement about the blog being created by petlovers so to reinforce the value to the user that the site has been made by petlovers for petlovers and their pets.
 
 #### Home
 
-The home page has the header and footer with the navigation.  This page is where the user first lands to and where the main blog posts are kept.  The user has the option of viewing each blog post page by clicking on the title of that blog post.  There is a date and time message of when the blog post was created underneath the title of a particular blog post.  There is a heart likes button but this can only be accessed when the user has registered and signed up as a user.  There is also an image above every blog post. The author/admistrators name is also placed within the image.
+- The home page has the header and footer with the navigation.  This page is where the user first lands to and where the main blog posts are kept.  The user has the option of viewing each blog post page by clicking on the title of that blog post.  There is a date and time message of when the blog post was created underneath the title of a particular blog post.  There is a heart likes button but this can only be accessed when the user has registered and signed up as a user.  There is also an image above every blog post. The author/admistrators name is also placed within the image.
 
 #### Blog Post Page
 
-In the blog post page we have the header and the footer.  On this page the user is able to 
+- In the blog post page we have the header and the footer.  On this page the user is able to 
 NEED TO FIX
 
 #### Register
 
-The registration page is for new users that wish to join the site.  There is a header and footer. There is a signup title. There is information about this being a sign up page and that for existing users they can use the login function.  I wanted to keep the registration process simple and easy to use.  The user has to fill in a username category, email which is left optional, a password and a resubmission of that password.
+- The registration page is for new users that wish to join the site.  There is a header and footer. There is a signup title. There is information about this being a sign up page and that for existing users they can use the login function.  I wanted to keep the registration process simple and easy to use.  The user has to fill in a username category, email which is left optional, a password and a resubmission of that password.
 
 #### Login
 
-The login is for existing users to access the site.  There is a header and footer. There is a sign in title. There is informatin about signing in and a redirect facility for those that have not signed up. The signed up user has to fill in the username and password settings to login in successfully.  Users that are registered have the ability to create comments on a particular post, read a comment about a post, update a post and delete a post.  The admin can approve the comments from signed up users.
+- The login is for existing users to access the site.  There is a header and footer. There is a sign in title. There is informatin about signing in and a redirect facility for those that have not signed up. The signed up user has to fill in the username and password settings to login in successfully.  Users that are registered have the ability to create comments on a particular post, read a comment about a post, update a post and delete a post.  The admin can approve the comments from signed up users.
 
 #### Update A Comment
 
-On this page the user is able to update a comment that they have made on a particular post. The user was also given the option to have a cancel button if they decided to change their minds.
+- On this page the user is able to update a comment that they have made on a particular post. The user was also given the option to have a cancel button if they decided to change their minds.
 
 #### Delete A Comment
 
-On this page the user is able to delete a comment that they have made on a particular post. The user was also given the option to have a cancel button if they decided to change their minds.
+- On this page the user is able to delete a comment that they have made on a particular post. The user was also given the option to have a cancel button if they decided to change their minds.
 
 
 #### Logout
-Signed up users can logout after signing into the blog. This will redirect the user back to the homepage.
+- Signed up users can logout after signing into the blog. This will redirect the user back to the homepage.
 
 
 
@@ -254,7 +254,9 @@ JAVASCRIPT
 
 - Cloudinary 
 
+
 ## Testing
+
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -294,8 +296,6 @@ As a Site User I can leave comments on a post so that I can be involved in the c
 - Site user can leave a comment on a post.
 
 - [Site users comments](static/images/makecomm.png)
-
-
 
 As a site user I want to be able to edit/update a comment that I have made about a post.
 
@@ -350,6 +350,58 @@ As a Site Admin I can approve or disapprove comments so that I can filter out ob
 
 ### Further Testing
 
+### Manual Testing
+
+#### Testing of Registration Form
+
+In the test below just the name is entered Steve Jobs and a password apple.  
+
+- The User is notified that a valid username needs to be entered and and the password is short.
+
+- [Test signup page](static/images/signuptest1.png)
+
+We tested a username for a value that we thought should fail (+), however the system allowed us to register with this symbol as the username. We investigated this if this was a valid username according to the django authentication specification and we found that the (+) is a valid character for usernames. Please see screenshots below.
+
+- [Signup with + character](static/images/signup3.png)
+
+- [Django Authentication](static/images/djangotest.png)
+
+We entered an incorrect email address and we were informed this was invalid. 
+
+- [Invalid email](static/images/invalidemail.png)
+
+#### Testing of Sign In Form
+
+We entered nothing into either field and pressed the Sign In button and we were informed the username must not be empty.
+
+- [Empty Sign In](static/images/emptylogin.png)
+
+
+We entered nothing into the password field and pressed the Sign In button and we were informed the password must not be empty.
+
+- [Empty Sign In](static/images/emptypass.png)
+
+We performed a test with a non existent username and we expected to get some kind of error message.  However we got no error messages we thought the test failed.  We therefore investigated the login code and we found that the form error code was not working.  We fixed the form error code and when we reperformed the test we were now warned that the username and password were invalid. 
+
+- [Empty Sign In](static/images/invalidsignin.png)
+
+During the testing process we decided to see if we could edit another users comment. When editing a comment there is a specific url for editing a comment and this url will contain the id of the comment therefore if you use and id that is not yours you can incorrectly edit it.  Therefore we put in some security code to stop people from doing this. On repeating the test we correctly found that we are blocked from editing another users comments and and appropriate error message is displayed.
+
+#### Cybersecurity Testing
+
+- [Empty Sign In](static/images/cybertest.png)
+
+This same process was also applied to the delete comments and we were blocked from deleting another users comment (because we had added similar security code to block this).  An appropriate error message was displayed.
+
+- [Empty Sign In](static/images/deletecomment.png)
+
+
+
+
+
+
+
+
 ### Known Bugs
 
 On the 7th of April whilst doing my write up for features I checked to see if none registered users could make comments on the blog post and they could.  
@@ -358,7 +410,7 @@ On the 7th of April whilst doing my write up for features I checked to see if no
 
 Noticed Google Chrome browser was autofilling fields in the registration form (sign up), which isn't appropriate, of course it's ok if Chrome autofills the login form, however, we don't want it to autofill the registration form. We realised that Chrome must have mistakenly remembered the autofill on that form, somewhere in development, however, we tested it in Chrome using a new profile, and it no longer offered to remember, and also it didn't autofill the fields. We believe this won't happen for other people.
 
-On the 31st of January I had to contact tutor support again and explain that I could not locate the env.py file that I had created twice on my filing system.  I sent tutor support screen shots of my filess.
+On the 31st of January I had to contact tutor support again and explain that I could not locate the env.py file that I had created twice on my filing system.  I sent tutor support screen shots of my files.
 
 Tutor Support informed me that it was best to open up my workspace by gitpod.io/workspaces into your url bar. 
 
