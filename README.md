@@ -427,7 +427,7 @@ Homepage
 
 About
 
-- [About Page Passed](static/images/.png)
+- [About Page Passed](static/images/aboutvalid.png)
 
 Register
 
@@ -446,7 +446,72 @@ The link below was tested with the W3C Markup Validation Service for the CSS cod
 
 CSS Code Pass
 
-- [Gallery Page Passed](static/images/csspass.png)
+- [CSS Code Passed](static/images/csspass.png)
+
+The files below were tested with the PEP8 online check Validation Service for the python code.
+
+0001_initial.py check this file for indentation
+
+[check with mike](static/images/checktest1.png)
+
+0002_alter_post_likes.py
+
+check with mike
+
+The admin.py file passed PEP8 online check.
+
+- [admin.py file passed](static/images/adminpass.png)
+
+The app.py file passed PEP8 online check.
+
+- [app.py file passed](static/images/apppass.png)
+
+The forms.py file passed PEP8 online check.
+
+- [forms.py file passed](static/images/formspass.png)
+
+The models.py file passed PEP8 online check.
+
+[models.py file passed](static/images/modelspass.png)
+
+The urls.py file passed PEP8 online check.
+
+[urls.py file passed](static/images/urlpass.png)
+
+The view.py file passed PEP8 online check.
+
+[view.py file passed](static/images/viewpass.png)
+
+The asgi.py file passed PEP8 online check.
+
+[asgi.py file passed](static/images/asgipass.png)
+
+The Petstar settings.py file passed PEP8 online check.
+
+[Petstar settings.py file passed](static/images/petsetpass.png)
+
+The .py file passed PEP8 online check.
+
+[.py file passed](static/images/pass.png)
+
+
+The .py file passed PEP8 online check.
+
+[.py file passed](static/images/pass.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
