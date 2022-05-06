@@ -414,7 +414,52 @@ The comment has been approved in the admin section.
 - [Approved Comment in Admin](static/images/approved.png)
 
 Now that the comment has been approved by the admin it is being displayed in the comments section of that blog post.
+
 - [Displayed Comment in comments section](static/images/commsubmit.png)
+
+### Validation Testing
+
+The blog pages below were tested with the W3C Markup Validation Service for the HTML code.
+
+Homepage
+
+- [ Home Page Passed](static/images/homevalid.png)
+
+About
+
+- [About Page Passed](static/images/.png)
+
+Register
+
+- [Sign Up Page Passed](static/images/regvalid.png)
+
+Sign In
+
+- [Sign In Page Passed](static/images/signinvalid.png)
+
+Gallery
+
+- [Gallery Page Passed](static/images/galleryvalid.png)
+
+
+The link below was tested with the W3C Markup Validation Service for the CSS code.
+
+CSS Code Pass
+
+- [Gallery Page Passed](static/images/csspass.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
