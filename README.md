@@ -558,6 +558,16 @@ A responsive test was carried out for tablet sizes.
 [iPad Air Tablet](static/images/ipadairpass.png)
 
 
+### Lighthouse Testing
+
+A Lighthouse test was carried out.
+
+[Lighthouse Test](static/images/lighthouse.png)
+
+
+
+
+
 
 
 
