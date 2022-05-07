@@ -2,9 +2,10 @@
 
 
 # Introduction
+
 ## About Petblog
 
-This blog was created for a user who has an interest in animal welfare and people who loves their pets.
+This blog was created for a user who has an interest in animal welfare and for people who love their pets.
 
 The user has always had a passion in taking care of animals and rescuing animals that have been injured.  The user usually uses social media to keep in touch with people that share an interest in animal welfare.
 
@@ -12,9 +13,11 @@ The user has always had a passion in taking care of animals and rescuing animals
 One of the reasons the user wanted a blog was to create a forum to keep in touch with fellow animal lovers and to also raise awareness about animal welfare. As the user stated "a social media platform for animal lovers and the joy we share in looking after them, our furry companions"
 
 
+## UX
 
+### User Stories & Admin
 
-### User Stories
+**Blog Users:**
 
 As a site user I want to view a list of posts on the blog so that I can select one to read.
 
@@ -36,19 +39,27 @@ As a site user if I decide that I do not want to delete a post I can cancel that
 
 As a Site User I can like or unlike a post so that I can interact with the content
 
+**Blog Admin:**
+
+
 As a Site Admin I can create, read, update and delete posts so that I can manage my blog content
 
 As a Site Admin I can create draft posts so that I can finish writing the content later
 
 As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments
 
+### The Development Planes
 
+- To develop a blog that would appeal to animal and pet lovers.
+
+- Initially the user (a friend who loves animals) had shown an interest in wanting to have a blog to share this interest with other pet lovers.
+
+- The user and I looked at other blogs listed in the credits section to see how best to design and layout the infomation for the blog.  This research assisted in the development process.
 
 ## Strategy
 
-#### Users
+The target audience is users, the admin and everyone who has a love for animals and pets.  The target audience is aimed at a specific audience interested in animal welfare or anyone interested in getting a pet to learn more.
 
-### UX
 
 #### Roles
 
@@ -70,14 +81,20 @@ As a Site Admin I can approve or disapprove comments so that I can filter out ob
 
 - During the covid-19 panademic we saw an interest in the number of people wanting to get a pet. Especially as people began to work from home or were furloughed.
 
-- There are also users that for some reason unable to keep a pet (such as the elderly or residential restrictions) and the blog would help them keep in touch by making comments about blog posts.
+- There are also users that for some reason are unable to keep a pet (such as the elderly or residential restrictions) and the blog would help them keep in touch by making comments about blog posts. This would help this target audience to remain engaged in animal welfare.
 
 #### Managing Site Admin
+
 This will be the person who can manage the administration of the site.
 
-### Development Planes
+
+### Scope 
+
+The scope of this project is to take into consideration the functions and features required for this blog.With defining the user stories it was essential to consider what functions would be important for this project.
 
 The blog will allow the user to:
+
+  - The user must be able to navigate around the blog easily on each page.
 
   - See and read posts about pets and animal welfare.
 
@@ -100,16 +117,14 @@ The blog will allow the admin to:
 
 - Approve comments made by registered users.
 
-### Scope 
 
-NEED TO LOOK UP SCOPE 
-
-
-### Structure Check task in figma
+### Structure
 
 ## Skeleton
 
 ### Wireframes
+
+I used Balsamiq to create the wireframes.  This helped with the planning and layout of the blog.
 
 The home page for the blog
 
@@ -145,7 +160,6 @@ The delete a comment page.
 
 [Delete a comment page](wireframes/delete.png)
 
-### Database Schema
 
 ### Database Models
 
@@ -158,48 +172,58 @@ The delete a comment page.
 [Database Model for Comments](wireframes/dabacomments2a.jpg)
 
 
-
-
-
-
-
-
-
 ### Design
 
+#### Logo
+
+Both Shanti and I chose the logo for the blog because we wanted it to convey an emotional response of how the love for animals should stand out in this blog.  The logo of the cat and dog showed that this was a pet blog aimed at pet lovers and therefore conveyed a simple and effective message of happiness and joy.
+
 #### Colour 
-Stacey is also an artist and chose the colour scheme for the blog.  She wanted to contrast the colour for the heading against the simple white background so as to create interest for the users and to make the blog look more welcoming. The individual blog card posts were also given a hint of light blue backround so that they would be recognised as blog post cards.
+Shanti is also an artist and chose the colour scheme for the blog.  She wanted to contrast the colour for the heading against the simple white background so as to create interest for the users and to make the blog look more welcoming. The individual blog card posts were also given a hint of light blue backround so that they would be recognised as blog post cards.
 
 #### Typography
-The font used for the blog is Poppins from google fonts.  We felt that this font looked very stylish and with further research realised this font added simplicity and easy readability for the user. [SmartBug My favourite fonts right now](https://www.smartbugmedia.com/blog/design-trends-fonts#:~:text=Poppins%20is%20geometric%20in%20style,to%20improve%20readability%20and%20style.)
+The font used for the blog is Poppins from google fonts.  We felt that this font looked very stylish and with further research realised this font added simplicity and easy readability for the user. 
+
+[SmartBug My favourite fonts right now](https://www.smartbugmedia.com/blog/design-trends-fonts#:~:text=Poppins%20is%20geometric%20in%20style,to%20improve%20readability%20and%20style.)
 
 ### Features
 
-### Design Features
+
+#### Design Features
 
 - The Navigation, Header and Footer are on every page in the blog so as to make it easy for the user to have consistency and ease of use when getting around the blog.
 
 #### Navigation
 
-- I decided to keep the main navigation to the left hand side of the user to view as this is where most viewers and users are known to view  awebsite first.  get evidence from ???
+- We decided to keep the main navigation to the left hand side. We did some research into where the best place was to place the navigation and it was shown that the top left hand side was the most preferred area for users to use navigation and menu. As this is a blog we wanted the user to have ease of control in navigating around the blog to view posts and add comments.
+
+[Lion and Mason Navigation Menu](https://www.lionandmason.com/ux-blog/is-top-navigation-or-side-navigation-better-for-your-product/)
 
 #### Header 
 
-- The header contains the title Petsstar and it also contains the navigation for the site.  This incorporates the Home Register and Login.  On the far right hand side is a short statement about petlovers.
-I wanted to keep the header simple and easy to use for the user.  Thereby not overwhelming them with two much information.
+- The header contains the title Petsstar and it also contains the navigation for the site.  This incorporates the Logo, Home, About, Register, Login and Gallery.  On the far right hand side is a short statement about petlovers.
+
+- We wanted to keep the header simple and easy to use for the user.  Thereby not overwhelming them with two much information.
 
 #### Footer
 
-- The footer incorporates the social media icons for the user to link on to. There is also a statement about the blog being created by petlovers so to reinforce the value to the user that the site has been made by petlovers for petlovers and their pets.
+- The footer incorporates the social media icons for the user to link on to. There is also a statement about the blog being created by petlovers so as to reinforce the value to the user that the site has been made by petlovers for petlovers and their pets.
 
 #### Home
 
-- The home page has the header and footer with the navigation.  This page is where the user first lands to and where the main blog posts are kept.  The user has the option of viewing each blog post page by clicking on the title of that blog post.  There is a date and time message of when the blog post was created underneath the title of a particular blog post.  There is a heart likes button but this can only be accessed when the user has registered and signed up as a user.  There is also an image above every blog post. The author/admistrators name is also placed within the image.
+- The home page has the header and footer with the navigation.  This page is where the user first lands to and where the main blog posts are kept.  The user has the option of viewing each blog post page by clicking on the title of that blog post.  There is a date and time message of when the blog post was created underneath the title of a particular blog post.  There is a heart symbol likes button but this can only be accessed when the user has registered and signed up as a user.  There is also an image above every blog post. The author/admistrators name is also placed within the image.
 
 #### Blog Post Page
 
-- In the blog post page we have the header and the footer.  On this page the user is able to 
-NEED TO FIX
+- In the blog post page we have the header and the footer.  On this page the user is able to view an image of an animal and a title for the blog post.  Underneath the title is the author of that blog post that is the admin and a date and time when the post was created.  The post has written information for a user to read and videos on further information have been added to the about dog breeds page to show that other media can also be used.
+
+- There is a heart symbol for the user to press to click if they like a post.
+
+- There is a comments symbol showing the total number of comments made on a post.
+
+- There is a comments section at the bottom of the page that users can view to read registered users comments.
+
+- If the user is registered and logged into the blog they are able to make comments in blog post page and they also have the option to edit and delete their specific comments that they have made about a particular blog.
 
 #### Register
 
@@ -229,6 +253,12 @@ List relevant pages
 HOME 
 
 ### Future Features
+
+-For future features it would be good to give users the ability to send photos of their pets.
+
+
+
+
 
 ## Technologies Used
 
@@ -490,14 +520,21 @@ The Petstar settings.py file passed PEP8 online check.
 
 [Petstar settings.py file passed](static/images/petsetpass.png)
 
-The .py file passed PEP8 online check.
+The Petstar urls.py file passed PEP8 online check.
 
-[.py file passed](static/images/pass.png)
+[The Petstar urls.py file passed](static/images/peturl.png)
 
+The Petstar wsgi.py file passed PEP8 online check.
 
-The .py file passed PEP8 online check.
+[The Petstar wsgi.py file passed](static/images/petwsgi.png)
 
-[.py file passed](static/images/pass.png)
+The env.py file passed PEP8 online check.
+
+[The env.py file passed](static/images/envpass.png)
+
+The manage.py file passed PEP8 online check.
+
+[The manage.py file passed](static/images/managepass.png)
 
 
 
