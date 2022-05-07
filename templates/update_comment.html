@@ -16,12 +16,10 @@
         {% if user.is_authenticated %}
             {% if user.username == comment.name %}
                 Comment Author: <strong>{{ comment.name }}</strong>
-                <br/><br/>
-                <div class="form-group">
+                <div class="form-group mt-4">
                     <form method="POST">
                         {% csrf_token %}
-                        <textarea class="comment-textarea" name="body" rows="10" required="" id="id_body">{{ comment.body }}</textarea>
-                        <br/><br/>
+                        <textarea class="comment-textarea mb-4" name="body" rows="10" required="" id="id_body">{{ comment.body }}</textarea>
                         <button class="btn btn-primary" title="Save changes to updated comment">Update</button>
                         <a href="{{ request.GET.nexturl }}" class="btn btn-secondary" title="Abort editing comment">Cancel</a>
                     </form>
