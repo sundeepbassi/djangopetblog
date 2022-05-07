@@ -425,6 +425,10 @@ This same process was also applied to the delete comments and we were blocked fr
 
 - [Delete](static/images/deletecomment.png)
 
+Tested to see if a standard user (i.e. not admin) should not be able to access the admin panel. When we checked we were correctly informed that we were not logged in as an administrator and we were prompted to log in as a different user.
+
+- [Admin only access](static/images/adtest.png)
+
 #### Comment Testing
 
 When we tried to add a comment we were notified that our comment was awaiting approval.
@@ -814,6 +818,8 @@ The information about dog breeds was taken from The pet express [The Pet express
 The information about the fun facts about cats was taken from Purina [Purina](https://www.purina.co.uk/articles/cats/behaviour/common-questions/fun-facts-about-cats)
 
 The information about rabbits was taken from National Geographic Kids [National Geographic Kids](https://www.natgeokids.com/uk/discover/animals/general-animals/10-hopping-fun-rabbit-facts/)
+
+The information about birds was taken from Write4Fun [Write4Fun](https://www.write4fun.net/view-entry/138318)  The image is from pixabay.
 
 Shanti also contributed posts to the blog and photos.
 
