@@ -96,9 +96,7 @@ body {
     content: "";
     position: absolute;
     top: 0;
-    right: 90%;
     height: 100%;
-    width: 150%;
     background: #445261;
     -webkit-transform: skew(15deg);
     -moz-transform: skew(15deg);
