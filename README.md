@@ -231,7 +231,7 @@ The font used for the blog is Poppins from google fonts.  We felt that this font
 
 #### Login
 
-- The login is for existing users to access the site.  There is a header and footer. There is a sign in title. There is informatin about signing in and a redirect facility for those that have not signed up. The signed up user has to fill in the username and password settings to login in successfully.  Users that are registered have the ability to create comments on a particular post, read a comment about a post, update a post and delete a post.  The admin can approve the comments from signed up users.
+- The login is for existing users to access the site.  There is a header and footer. There is a sign in title. There is information about signing in and a redirect facility for those that have not signed up. The signed up user has to fill in the username and password settings to login in successfully.  Users that are registered have the ability to create comments on a particular post, read a comment about a post, update a post and delete a post.  The admin can approve the comments from signed up users.
 
 #### Update A Comment
 
@@ -243,18 +243,13 @@ The font used for the blog is Poppins from google fonts.  We felt that this font
 
 
 #### Logout
-- Signed up users can logout after signing into the blog. This will redirect the user back to the homepage.
+- Signed up users can logout after signing into the blog. The user is taken to a page to check it they want to sign out and if they want to sign out, they click the sign out button and this will redirect the user back to the homepage.
 
-
-
-
-List relevant pages
-
-HOME 
+ 
 
 ### Future Features
 
--For future features it would be good to give users the ability to send photos of their pets.
+- For future features it would be good to give users the ability to send photos of their pets.
 
 
 
@@ -263,10 +258,15 @@ HOME
 ## Technologies Used
 
 ### Languages Used
-HTML
-CSS3
-PYTHON
-JAVASCRIPT
+
+- PYTHON
+
+- JAVASCRIPT
+
+- HTML
+
+- CSS
+
 
 ### Frameworks, Libraries and Programs Used
 
@@ -283,6 +283,8 @@ JAVASCRIPT
 - Heroku
 
 - Cloudinary 
+
+- Google Fonts
 
 
 ## Testing
