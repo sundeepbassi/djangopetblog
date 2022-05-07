@@ -545,6 +545,29 @@ The javascript from base.html file passed JS Lint online check.
 
 [The javascript from base.html file passed](static/images/jspass.png)
 
+### Responsiveness Testing
+
+A responsive test was carried out for mobile sizes.
+
+[Samsung Mobile](static/images/sampass.png)
+
+[iPhone Mobile](static/images/ipass.png)
+
+A responsive test was carried out for tablet sizes.
+
+[iPad Air Tablet](static/images/ipadairpass.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Known Issues
 
