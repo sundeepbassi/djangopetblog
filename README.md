@@ -246,10 +246,13 @@ The font used for the blog is Poppins from google fonts.  We felt that this font
 
 ### Future Features
 
-- For future features, it would be good to give users the ability to send photos of their pets.
+For future features:
 
+- It would be good to give users the ability to send photos of their pets.
 
+- Allow users to create their own blog posts (currently can only create blog posts via admin panel)
 
+- A contact page for people to contact the site owner (admin)
 
 
 ## Technologies Used
@@ -273,6 +276,8 @@ The font used for the blog is Poppins from google fonts.  We felt that this font
 
 - Django
 
+- PostgreSQL
+
 - Summernote
 
 - Superuser
@@ -282,6 +287,16 @@ The font used for the blog is Poppins from google fonts.  We felt that this font
 - Cloudinary 
 
 - Google Fonts
+
+- Font Awesome 5.15.3
+
+- Bootstrap 4
+
+- jQuery 3.5.1
+
+- Ekko Lightbox 5.3.0
+
+- Popper (Tooltip & Popover Positioning Engine) 1.16.1
 
 
 ## Testing
