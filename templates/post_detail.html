@@ -112,7 +112,7 @@
                             <a class="btn btn-danger btn-sm" title="Delete comment" role="button" href="{% url 'delete_comment' comment.id %}?nexturl={{ request.path | urlencode }}">Delete</a>
                         {% endif %}
                     {% endif %}
-                    <p class="font-weight-bold">
+                    <p class="font-weight-bold mt-3">
                         <!-- The commenter's name goes here. Check the model if you're not sure what that is -->
                         {{ comment.name }}
                         <span class="font-weight-normal">
