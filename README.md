@@ -117,7 +117,7 @@ The blog will allow the admin to:
 
 ### Structure
 
-## Skeleton
+### Skeleton
 
 ### Wireframes
 
@@ -173,10 +173,10 @@ The delete a comment page.
 
 #### Logo
 
-Both Shanti and I chose the logo for the blog because we wanted it to convey an emotional response of how the love for animals should stand out in this blog.  The logo of the cat and dog showed that this was a pet blog aimed at pet lovers and therefore conveyed a simple and effective message of happiness and joy.
+Both Shanti and I chose the logo for the blog because we wanted it to convey an emotional response of how the love for animals should stand out in this blog.  The logo of the cat and the dog showed that this was a pet blog aimed at pet lovers and therefore conveyed a simple and effective message of happiness and joy.
 
 #### Colour 
-Shanti is also an artist and chose the colour scheme for the blog.  She wanted to contrast the colour for the heading against the simple white background to create interest for the users and to make the blog look more welcoming. The individual blog card posts were also given a hint of light blue background so that they would be recognised as blog postcards.
+Shanti is also an artist and chose the colour scheme for the blog.  She wanted to contrast the colour for the heading against the simple white background to create interest for the users and to make the blog look more welcoming. The individual blog card posts were also given a hint of light blue background so that they would be recognised as blog postcards.  Shanti liked the pink navigation bar as she felt it was warm and welcoming.
 
 #### Typography
 The font used for the blog is Poppins from google fonts.  We felt that this font looked very stylish and with further research realised this font added simplicity and easy readability for the user. 
@@ -580,21 +580,7 @@ A Lighthouse test was carried out.
 [Lighthouse Test](static/images/lighthouse.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Known Issues
+### Known Bugs & Issues
 
 Noticed Google Chrome browser was auto-filling fields in the registration form (sign up), which isn't appropriate, of course, it's ok if Chrome auto-fills the login form, however, we don't want it to autofill the registration form. We realised that Chrome must have mistakenly remembered the autofill on that form, somewhere in development, however, we tested it in Chrome using a new profile, and it no longer offered to remember, and also it didn't autofill the fields. We believe this won't happen to other people.
 
@@ -677,9 +663,32 @@ Steps to Deployment
 When I did do the early deployment as advised in the Code Institute walkthrough I think therefore I blog, the deployment worked well.  Then one day there were problems getting the site to work I had to contact tutor support and they said that because Heroku had been doing maintenance work on their site that Config Vars DATABSE_URL would have been changed and therefore it would be best to recopy this and add it to my env.py file again. I did this and the site worked well.
 
 STILL NEED TO ADD MORE INFORMATION
-- Get our static and media files stored on Cloudinary. 
+- I followed the advise from the tutors and I did the python manage.py collectstatic command into the terminal to get the static and media files to store in Cloudinary.
 
-The final deployment steps
+The final deployment steps:
+
+On the 7th of May I tried to deploy the blog as shown in the video I think therefore I blog by the code institute and I was receiving an error when I tried to deploy to Heroku.
+
+[Heroku Message](static/images/herokumes.png)
+
+I had to go on Slack and the information I got was that the process had changed for deploying to Heroku as there had been a security attack.
+
+A fellow student kindly sent me the new process below.  The message was posted by a member of staff at the Code Institute.
+
+kevin_ci
+:heroku: IMPORTANT SERVICE UPDATE: HEROKU AND GITHUB :heroku:
+Yesterday, Github announced that a number of user login tokens for Heroku had been compromised in a security attack. In response, Heroku have removed this particular login functionality from their site. It is currently unclear when or if they well re-enable it. This means that you will no longer be able to deploy apps from the Heroku dashboard, nor will apps automatically update/redeploy in future. All future deployments will have to be done manually from the terminal.
+As some of Code Institute's video content shows the now unavailable automatic deployment methods, we ask that students who are working with Heroku follow one of these two steps:
+IF YOU ARE CREATING A NEW DEPLOYMENT/APP
+Run the command heroku login -i and login when prompted. Then run the command heroku create your_app_name_here to create a new app, replacing your_app_name_here with the name you want to give your app. This will create a new Heroku app and link it to your Gitpod terminal. You can then access the app via the Heroku dashboard and set up your config vars.
+IF YOU ALREADY HAVE AN APP CREATED WHICH USES AUTOMATIC DEPLOYS
+Run the command heroku login -i and login when prompted. Then run the following command: heroku git:remote -a your_app_name_here and replace your_app_name_here with the name of your Heroku app. This will link the app to your Gitpod terminal.
+Once you have followed the appropriate step above, your Heroku app will be linked to your Gitpod workspace.
+HOW TO DEPLOY
+After linking your app to your workspace with one of the above steps, you can then deploy new versions of the app by running the command git push heroku main and your app will be deployed to Heroku.
+If you have any issues with the above steps, please contact tutor support for clarification/assistance.
+Show less
+Thread in announcements | Apr 16th | View message
 
 ### Credits
 
@@ -871,11 +880,11 @@ The information about birds was taken from Write4Fun [Write4Fun](https://www.wri
 
 Shanti also contributed posts to the blog and photos.
 
-
-
 ### Acknowledgments
 
 I would like to thank Mike Y for helping, supporting and tutoring me with this project and empowering me to do my best.  I would like to thank Shanti, whose idea for a pet blog inspired me to do this project.  I dedicate this blog and project to them both and to all the wonderful pets and animals.
+
+I am also grateful to Scott, Oisin and Alan for being kind and patient with me when I was struggling, and they all have excellent tutoring skills.
 
 ### Disclaimer
 
