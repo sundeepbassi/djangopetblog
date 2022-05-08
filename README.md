@@ -667,7 +667,9 @@ STILL NEED TO ADD MORE INFORMATION
 
 The final deployment steps:
 
-On the 7th of May I tried to deploy the blog as shown in the video I think therefore I blog by the code institute and I was receiving an error when I tried to deploy to Heroku.
+On the 7th of May I tried to deploy the blog as shown in the video I think therefore I blog by the code institute and I was receiving an error when I tried to deploy to Heroku. 
+
+I did set the Debug to False in the settings.py file
 
 [Heroku Message](static/images/herokumes.png)
 
