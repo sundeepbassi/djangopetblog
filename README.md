@@ -7,7 +7,9 @@ This blog was created for a user who has an interest in animal welfare and for p
 The user has always had a passion for taking care of animals and rescuing animals that have been injured.  The user usually uses social media to keep in touch with people that share an interest in animal welfare.
 
 ### Initial Discussion
-One of the reasons the user wanted a blog was to create a forum to keep in touch with fellow animal lovers and to also raise awareness about animal welfare. As the user stated "a social media platform for animal lovers and the joy we share in looking after them, our furry companions"
+One of the reasons the user wanted a blog was to create a forum to keep in touch with fellow animal lovers and to also raise awareness about animal welfare. As the user stated: 
+
+"a social media platform for animal lovers and the joy we share in looking after them, our furry companions"
 
 
 ## UX
@@ -158,7 +160,12 @@ The delete a comment page.
 [Delete a comment page](wireframes/delete.png)
 
 
-### Database Models
+### Database Models & Schema
+
+The database schema and models were designed to show the role of the admin in managing the blog.  This also included the input from a registered user.
+
+[Database Model for Admin & the User](wireframes/datamod1.png)
+
 
 - The database model diagram was created for the posts for the blog.
 
@@ -179,7 +186,7 @@ Both Shanti and I chose the logo for the blog because we wanted it to convey an 
 Shanti is also an artist and chose the colour scheme for the blog.  She wanted to contrast the colour for the heading against the simple white background to create interest for the users and to make the blog look more welcoming. The individual blog card posts were also given a hint of light blue background so that they would be recognised as blog postcards.  Shanti liked the pink navigation bar as she felt it was warm and welcoming.
 
 #### Typography
-The font used for the blog is Poppins from google fonts.  We felt that this font looked very stylish and with further research realised this font added simplicity and easy readability for the user. 
+The font used for the blog is Poppins from google fonts.  We felt that this font looked very stylish and with further research we realised this font added simplicity and easy readability for the user. 
 
 [SmartBug My favourite fonts right now](https://www.smartbugmedia.com/blog/design-trends-fonts#:~:text=Poppins%20is%20geometric%20in%20style,to%20improve%20readability%20and%20style.)
 
@@ -424,13 +431,16 @@ We entered nothing into either field and pressed the Sign In button and we were 
 
 We entered nothing into the password field and pressed the Sign In button and we were informed the password must not be empty.
 
-- [Empty Sign In](static/images/emptypass.png)
+- [Empty Password Field](static/images/emptypass.png)
 
 We performed a test with a non-existent username and we expected to get some kind of error message.  However, we got no error messages we thought the test failed.  We therefore investigated the login code and we found that the form error code was not working.  We fixed the form error code and when we reperformed the test we were now warned that the username and password were invalid. 
 
-- [Empty Sign In](static/images/invalidsignin.png)
+- [Username & Password Invalid](static/images/invalidsignin.png)
 
 During the testing process, we decided to see if we could edit another user's comment. When editing a comment there is a specific URL for editing a comment and this URL will contain the id of the comment therefore if you use an id that is not yours you can incorrectly edit it.  Therefore we put in some security code to stop people from doing this. On repeating the test we correctly found that we are blocked from editing another user's comments and the appropriate error message is displayed.
+
+- [Javascript testing for the display fading](static/images/jstest.png)
+
 
 #### Cybersecurity Testing
 
@@ -594,8 +604,6 @@ On the 1st of February 2022, there were issues with performing the python3 manag
 
 On the 2nd of February, I noticed that my env.py had disappeared again and I had been working on it the night before to update the config vars links as suggested by the tutors because they informed me that Heroku sometimes updates their servers and the links can change.  I contacted the tutors again and informed them that the env.py had disappeared again and I had followed the correct procedures to open the work as suggested by the tutors previously.  I also informed them that I could not log into Heroku.  The tutors told me that the Heroku site was not accessible as engineers were working on it. The tutors helped me to set up an environment variable and told me to use the https://gitpod.io/workspaces to open and stop projects.
 
-cloudinary://571451748687539:2KTq0GgqN_vNbGGDB_nWNoN8Lws@sunnyalways
-
 On the 14th of February, I had to contact tutor support as I could not make a git commit and I also tried to do it through source control.  I had to do some git commits from the week before.  I had to resubmit my project 3 which took a week to do.  Tutor support said that I would need to do a git pull but the issue was a conflict in the requirements file.  Once this was resolved the tutor support gave me commands to restore my workspace to be able to do git commits.
 
 On the 7th of April, I contacted tutor support as I was concerned about the 6 warnings that were showing the models.py, views.py and settings.py files.  
@@ -691,6 +699,13 @@ After linking your app to your workspace with one of the above steps, you can th
 If you have any issues with the above steps, please contact tutor support for clarification/assistance.
 Show less
 Thread in announcements | Apr 16th | View message
+
+The site was deployed to Heroku on the 9th of May following the above instructions.
+
+[Successfully Deployed To Heroku Message](static/images/deployedheroku.png)
+
+We checked the deployed site and we were able to access the admin area and also read the blog posts.  The links worked and a user brian was able to login.
+
 
 ### Credits
 
