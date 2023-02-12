@@ -1,5 +1,237 @@
 # Introduction
 
+
+I had to contact the tutors as I was informed by student care and Jo c's webinair that the projects needed to be live for a diploma certificate to be given for the course.  I contacted the tutors as my database previously had been deleted due to the Heroku changes.  The tutors said that I could readd to my database.
+
+
+
+
+
+Sean profile
+Sean
+Begin a Tutoring Session
+Tutoring at Code Institute profile
+Please confirm that you have prepared for this session as per the steps on this page: https://code-institute-org.github.io/tutoring-info/guidelines/ 
+You should have:
+A clear description of your issue
+A list of the debugging steps and research you have carried so far 
+Failure to answer all of the bots questions will result in this conversation being closed.
+By clicking "I'm Prepared," you agree to these conditions.
+I'm Prepared
+Your tutoring usage time for this week (in minutes): 17
+Tutoring at Code Institute profile
+Please select one of the following which best describes what you are working on.
+Portfolio Project 4
+Tutoring at Code Institute profile
+Please provide us with your Problem Statement. This is a clear description of the problem that you're currently facing.
+At the very least, you need to tell us what should your code be doing, and what is it actually doing?
+If you are getting an error, please send a screenshot.
+If you are working on a particular file, which file is it, and which lines of code?
+2:52 pm
+Hi tutors, i was aked by the student care to ensure that the previous projects that I submitted 4 is live. I have checked and because the database was deleted in november by heroku I am not sure about what to do?
+Tutoring at Code Institute profile
+What steps have you taken so far to resolve the issue, or to address current gaps in your knowledge?
+Vague answers like "searched on Slack and Google" are not sufficient here. What specific steps have you taken? What code and debugging steps have you tried? What resources have you used (e.g. provide links to StackOverflow questions you have read)?
+i have tried to follow the steps for setting up elephantsql
+Tutoring at Code Institute profile
+One final thing. Please share your code with us. 
+If you are working on Gitpod, please set your workspace to shared, and send us the link to it. If you are working on a course challenge, please send the name of the challenge.
+https://sundeepbassi-djangopetbl-o5z0djkzl1c.ws-eu86.gitpod.io/
+Tutoring at Code Institute profile
+Thank you. We will get back to you as soon as possible. You can see how busy tutoring currently is on this page: https://code-institute-org.github.io/tutoring-info/status/
+Note that if you have failed to sufficiently answer any of the above questions, tutors will have to re-ask you for the information, which will use up part of your weekly tutoring time allowance.
+
+
+Hi Sunny,
+
+it appears that in your env.py file, you still have a reference to the old heroku postgres, rather than the elephgantsql database
+Sean profile
+You need to replace the url with the new one
+
+
+thanks Sean, shall I just add the new elephant sql to both the env file and the heroku one
+Yes
+Sean profile
+Did you go through the steps to create the tables on elephant SQL yet? I would assume not if you haven't added it to gitpod yet
+Yes I created a new instance on elephant sql and I can copy the database url as you kindly suggested
+Thaks sean you have been very kind and helpful I will give it a go and please feel free to close this ticket and I can get back to you if I get stuck
+Sean profile
+ok then, no problem, take care
+Help Sean understand how they’re doing:
+Tutoring at Code Institute profile
+You rated the conversation 
+Thanks for letting us know
+Sean is an excellent tutor he has kindly helped me to see what my problem is and he has empowered me to rectify it skillfully
+Thanks Sean
+Take care Sean have a good weekend
+😄
+23h ago. Not seen yet
+
+Write a reply…
+
+
+
+
+Sean profile
+Sean
+Begin a Tutoring Session
+Tutoring at Code Institute profile
+Please confirm that you have prepared for this session as per the steps on this page: https://code-institute-org.github.io/tutoring-info/guidelines/ 
+You should have:
+A clear description of your issue
+A list of the debugging steps and research you have carried so far 
+Failure to answer all of the bots questions will result in this conversation being closed.
+By clicking "I'm Prepared," you agree to these conditions.
+I'm Prepared
+Your tutoring usage time for this week (in minutes): 25
+Tutoring at Code Institute profile
+Please select one of the following which best describes what you are working on.
+Portfolio Project 4
+Tutoring at Code Institute profile
+Please provide us with your Problem Statement. This is a clear description of the problem that you're currently facing.
+At the very least, you need to tell us what should your code be doing, and what is it actually doing?
+If you are getting an error, please send a screenshot.
+If you are working on a particular file, which file is it, and which lines of code?
+Hi Tutors, Sean kindly showed me where I was going wrong with my env.py file and I added the new elephant sql databse url both to the env.file and to the heroku config vars I am also getting errors in my terminal
+Tutoring at Code Institute profile
+What steps have you taken so far to resolve the issue, or to address current gaps in your knowledge?
+Vague answers like "searched on Slack and Google" are not sufficient here. What specific steps have you taken? What code and debugging steps have you tried? What resources have you used (e.g. provide links to StackOverflow questions you have read)?
+Sean kindly showed me what to do
+Tutoring at Code Institute profile
+One final thing. Please share your code with us. 
+If you are working on Gitpod, please set your workspace to shared, and send us the link to it. If you are working on a course challenge, please send the name of the challenge.
+https://sundeepbassi-djangopetbl-o5z0djkzl1c.ws-eu86.gitpod.io/
+Tutoring at Code Institute profile
+Thank you. We will get back to you as soon as possible. You can see how busy tutoring currently is on this page: https://code-institute-org.github.io/tutoring-info/status/
+Note that if you have failed to sufficiently answer any of the above questions, tutors will have to re-ask you for the information, which will use up part of your weekly tutoring time allowance.
+
+Sean profile
+Hi again Sunny, this was the second part that I explained to do..
+
+You need to migrate your changes, then make migrations before using the new database
+
+3:24 pm
+Sean profile
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py createsuperuser
+
+That will create the tables and migrate, then it will be usable
+Thanks sean I will give it a go sorry it was my fault for being to enthusiastic
+I will give it a go
+lol, no probs..
+Sean profile
+Enjoy your day and happy coding :)
+Help Sean understand how they’re doing:
+Tutoring at Code Institute profile
+You rated the conversation 
+Thanks for letting us know
+Sean is a brilliant tutor he has given me the confidence to work on the code I am very grateful for his excellent support and guidance
+Thanks Sean you have been brilliant
+Sean profile
+👍
+Have a good weekend
+😄
+22h ago. Not seen yet
+
+Write a reply…
+
+
+
+Sean profile
+Sean
+Begin a Tutoring Session
+Tutoring at Code Institute profile
+Please confirm that you have prepared for this session as per the steps on this page: https://code-institute-org.github.io/tutoring-info/guidelines/ 
+You should have:
+A clear description of your issue
+A list of the debugging steps and research you have carried so far 
+Failure to answer all of the bots questions will result in this conversation being closed.
+By clicking "I'm Prepared," you agree to these conditions.
+I'm Prepared
+Your tutoring usage time for this week (in minutes): 29
+Tutoring at Code Institute profile
+Please select one of the following which best describes what you are working on.
+Portfolio Project 4
+Tutoring at Code Institute profile
+Please provide us with your Problem Statement. This is a clear description of the problem that you're currently facing.
+At the very least, you need to tell us what should your code be doing, and what is it actually doing?
+If you are getting an error, please send a screenshot.
+If you are working on a particular file, which file is it, and which lines of code?
+Hi Tutors, Sean, kindly helped me to set up the tables for my project 4 but I am still not able to open the app in heroku and it is showing an error
+Tutoring at Code Institute profile
+What steps have you taken so far to resolve the issue, or to address current gaps in your knowledge?
+Vague answers like "searched on Slack and Google" are not sufficient here. What specific steps have you taken? What code and debugging steps have you tried? What resources have you used (e.g. provide links to StackOverflow questions you have read)?
+I followed the steps from the tutors
+Tutoring at Code Institute profile
+One final thing. Please share your code with us. 
+If you are working on Gitpod, please set your workspace to shared, and send us the link to it. If you are working on a course challenge, please send the name of the challenge.
+https://sundeepbassi-djangopetbl-o5z0djkzl1c.ws-eu86.gitpod.io/
+Tutoring at Code Institute profile
+Thank you. We will get back to you as soon as possible. You can see how busy tutoring currently is on this page: https://code-institute-org.github.io/tutoring-info/status/
+Note that if you have failed to sufficiently answer any of the above questions, tutors will have to re-ask you for the information, which will use up part of your weekly tutoring time allowance.
+
+Sean profile
+Whats the heroku url please
+
+https://dashboard.heroku.com/apps/petstar2022/deploy/github
+Sean profile
+ok, application error, we need to see what that is...
+
+First, please screenshot the env vars in heroku for me
+
+
+Sorry for the trouble sean
+No trouble, ok, lets see what the issue might be, ill need to login to your heroku via the terminal in gitpod..
+
+please use the terminal to finish the login process
+Sean profile
+
+
+Hi sean I entered my email and password and it came back with this
+my email is sunnyeshe@yahoo.com
+and the password I use for heroku is Karmarpa888=
+ok, it looks like you have 2 factor authentication on
+So, you'll need to go to heroku settings, and find your API key
+Sean profile
+When it asks for your password, you enter the API key instead
+
+3:49 pm
+Hi SEan I am in settings but cannot find my api key
+Sean profile
+No, the heroku settings for your account, not the project settings :)
+sorry I am not sure how to access it for my account
+
+I think I found it
+Sean profile
+Yeap, when the termianl asks for your password, add that in instead
+Thanks I will give it a go I am grateful for your kind support
+We are not done yet
+:)
+ok, so due to switching to the eco plan, something went amiss, I've fixed by by retsarting the web service and all is good now looking at it
+Sean profile
+You can now start to add things to your database again
+thanks sean
+no probs, im pretty sure that will be the last we will see an issue on this problem :)
+Sean profile
+Enjoy your day and happy coding :)
+Sean thank you it is working now I can add directly into the admin panel for my posts it has been a great help seems to be working good
+Sean profile
+👍
+😄
+Thank you for everything take care buddy
+Sean profile
+👍
+Help Sean understand how they’re doing:
+Tutoring at Code Institute profile
+You rated the conversation 
+Thanks for letting us know
+Sean is a wonderful tutor and in this session I have learnt a lot and Sean helped me not to give up but to persevere
+🌟
+
+Write a reply…
+
+
 ## About Petblog
 
 This blog was created for a user who has an interest in animal welfare and for people who love their pets.
